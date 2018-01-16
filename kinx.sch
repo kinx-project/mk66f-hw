@@ -6150,7 +6150,7 @@ WR-COM_USB_Micro Type B_Vertical_THT Micro Type B Vertical THT- Tape &amp; Reel 
 </part>
 <part name="GND3" library="t32_ref" deviceset="GND" device=""/>
 <part name="GND2" library="t32_ref" deviceset="GND" device=""/>
-<part name="P1" library="t32_ref" deviceset="LED" device=""/>
+<part name="LED_PWR" library="t32_ref" deviceset="LED" device=""/>
 <part name="GND21" library="t32_ref" deviceset="GND" device=""/>
 <part name="S1" library="t32_ref" deviceset="TACT_SWITCH" device=""/>
 <part name="GND16" library="t32_ref" deviceset="GND" device=""/>
@@ -6357,7 +6357,7 @@ WR-COM_USB_Micro Type B_Vertical_THT Micro Type B Vertical THT- Tape &amp; Reel 
 </instance>
 <instance part="GND3" gate="1" x="-281.686" y="91.44"/>
 <instance part="GND2" gate="1" x="-286.766" y="91.44"/>
-<instance part="P1" gate="G$1" x="-93.98" y="-24.13"/>
+<instance part="LED_PWR" gate="G$1" x="-93.98" y="-24.13"/>
 <instance part="GND21" gate="1" x="-93.98" y="-40.64"/>
 <instance part="S1" gate="G$1" x="-161.29" y="-96.52" rot="R90"/>
 <instance part="GND16" gate="1" x="-149.86" y="-96.52" rot="R90"/>
@@ -7211,7 +7211,7 @@ WR-COM_USB_Micro Type B_Vertical_THT Micro Type B Vertical THT- Tape &amp; Reel 
 </net>
 <net name="N$41" class="0">
 <segment>
-<pinref part="P1" gate="G$1" pin="+"/>
+<pinref part="LED_PWR" gate="G$1" pin="+"/>
 <wire x1="-93.98" y1="-21.59" x2="-93.98" y2="91.44" width="0.1524" layer="91"/>
 <pinref part="U$1" gate="G$1" pin="PTC3"/>
 <wire x1="-124.46" y1="91.44" x2="-93.98" y2="91.44" width="0.1524" layer="91"/>
@@ -7257,7 +7257,7 @@ WR-COM_USB_Micro Type B_Vertical_THT Micro Type B Vertical THT- Tape &amp; Reel 
 <net name="N$80" class="0">
 <segment>
 <pinref part="R8" gate="G$1" pin="2"/>
-<pinref part="P1" gate="G$1" pin="-"/>
+<pinref part="LED_PWR" gate="G$1" pin="-"/>
 <wire x1="-93.98" y1="-25.4" x2="-93.98" y2="-30.48" width="0.1524" layer="91"/>
 </segment>
 </net>

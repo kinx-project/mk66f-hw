@@ -1384,13 +1384,15 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="TYPE" value="Resistor" x="200" y="160" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="VALUE" x="88.095" y="65.73" size="0.635" layer="26" ratio="10" rot="MR90"/>
 </element>
-<element name="R8" library="t32_ref" package="R0603" value="470R" x="68" y="36" rot="MR270">
+<element name="R8" library="t32_ref" package="R0603" value="470R" x="68" y="36" smashed="yes" rot="MR270">
 <attribute name="DESC" value="470R / 1 % /  0.1 W" x="-25" y="174" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MF" value="Vishay" x="-25" y="174" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MPN" value="CRCW0603470RFKEA" x="-25" y="174" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="NAME" x="68" y="36" size="0.7" layer="52" rot="MR0" align="center"/>
 <attribute name="OC_MOUSER" value="71-CRCW0603-470-E3" x="-25" y="174" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="PACKAGE" value="0603" x="-25" y="174" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="TYPE" value="Resistor" x="-25" y="174" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="VALUE" x="69.27" y="34.095" size="0.635" layer="26" ratio="10" rot="MR0"/>
 </element>
 <element name="R7" library="t32_ref" package="R0603" value="33R" x="85" y="67" smashed="yes" rot="MR0">
 <attribute name="DESC" value="33R / 1% / 0.25 W" x="223" y="160" size="1.778" layer="28" rot="MR0" display="off"/>
@@ -1411,7 +1413,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="TYPE" value="Voltage regulator" x="-92" y="891" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="VALUE" x="42.809" y="69.99" size="0.889" layer="26" ratio="11" rot="MR0"/>
 </element>
-<element name="P1" library="t32_ref" package="LED-0805" value="" x="70.933" y="35.091" rot="MR90">
+<element name="LED_PWR" library="t32_ref" package="LED-0805" value="" x="70.933" y="35.091" rot="MR90">
 <attribute name="DESC" value="orange" x="-762.067" y="-187.909" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MF" value="ROHM Semiconductor" x="-762.067" y="-187.909" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MPN" value="SML-211DTT86" x="-762.067" y="-187.909" size="1.778" layer="28" rot="MR90" display="off"/>
@@ -2347,7 +2349,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="103" y1="45" x2="105.5074" y2="45" width="0.2" layer="16"/>
 </signal>
 <signal name="N$41">
-<contactref element="P1" pad="+"/>
+<contactref element="LED_PWR" pad="+"/>
 <contactref element="U$1" pad="106"/>
 <wire x1="77.71" y1="38.04" x2="77.71" y2="36.71" width="0.2" layer="16"/>
 <wire x1="76" y1="35" x2="73" y2="35" width="0.2" layer="16"/>
@@ -2406,7 +2408,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </signal>
 <signal name="N$80">
 <contactref element="R8" pad="2"/>
-<contactref element="P1" pad="-"/>
+<contactref element="LED_PWR" pad="-"/>
 <wire x1="68.762" y1="36" x2="70.933" y2="35.98" width="0.4" layer="16"/>
 </signal>
 <signal name="N$11">
