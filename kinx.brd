@@ -1288,20 +1288,16 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="VALUE" x="77.905" y="2.349" size="1.27" layer="27" ratio="10"/>
 </element>
 <element name="R1" library="rcl" package="R1206" value="10K" x="44" y="9" smashed="yes" rot="R90">
-<attribute name="NAME" x="46.857" y="7.603" size="1.27" layer="25" rot="R90"/>
-<attribute name="VALUE" x="46.413" y="7.603" size="1.27" layer="27" rot="R90"/>
+<attribute name="VALUE" x="46.413" y="7.603" size="1.27" layer="25" rot="R90"/>
 </element>
 <element name="R2" library="rcl" package="R1206" value="10K" x="54" y="9" smashed="yes" rot="R90">
-<attribute name="NAME" x="56.857" y="7.603" size="1.27" layer="25" rot="R90"/>
-<attribute name="VALUE" x="56.413" y="7.603" size="1.27" layer="27" rot="R90"/>
+<attribute name="VALUE" x="56.413" y="7.603" size="1.27" layer="25" rot="R90"/>
 </element>
 <element name="R3" library="rcl" package="R1206" value="10K" x="64" y="9" smashed="yes" rot="R90">
-<attribute name="NAME" x="66.857" y="7.603" size="1.27" layer="25" rot="R90"/>
-<attribute name="VALUE" x="66.413" y="7.603" size="1.27" layer="27" rot="R90"/>
+<attribute name="VALUE" x="66.413" y="7.603" size="1.27" layer="25" rot="R90"/>
 </element>
 <element name="R4" library="rcl" package="R1206" value="10K" x="74" y="9" smashed="yes" rot="R90">
-<attribute name="NAME" x="76.857" y="7.603" size="1.27" layer="25" rot="R90"/>
-<attribute name="VALUE" x="76.413" y="7.603" size="1.27" layer="27" rot="R90"/>
+<attribute name="VALUE" x="76.413" y="7.603" size="1.27" layer="25" rot="R90"/>
 </element>
 <element name="H1" library="holes" package="4,1-PAD" value="MOUNT-PAD-ROUND4.1" x="61" y="30"/>
 <element name="MKL04Z32VLC4" library="t32_ref" package="LQFP32-08" value="MKL04Z32VLC4" x="110" y="47" smashed="yes" rot="MR90">
