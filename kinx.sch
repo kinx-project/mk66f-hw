@@ -6118,10 +6118,10 @@ WR-COM_USB_Micro Type B_Vertical_THT Micro Type B Vertical THT- Tape &amp; Reel 
 <part name="LED4" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="SML1206" package3d_urn="urn:adsk.eagle:package:15829/1">
 <attribute name="OC_MOUSER" value="604-APT3216QBC/D"/>
 </part>
-<part name="R1" library="rcl" deviceset="R-EU_" device="R1206"/>
-<part name="R2" library="rcl" deviceset="R-EU_" device="R1206"/>
-<part name="R3" library="rcl" deviceset="R-EU_" device="R1206"/>
-<part name="R4" library="rcl" deviceset="R-EU_" device="R1206"/>
+<part name="R1" library="rcl" deviceset="R-EU_" device="R1206" value="10K"/>
+<part name="R2" library="rcl" deviceset="R-EU_" device="R1206" value="10K"/>
+<part name="R3" library="rcl" deviceset="R-EU_" device="R1206" value="10K"/>
+<part name="R4" library="rcl" deviceset="R-EU_" device="R1206" value="10K"/>
 <part name="H1" library="holes" deviceset="MOUNT-PAD-ROUND" device="4.1"/>
 <part name="MKL04Z32VLC4" library="t32_ref" deviceset="MKL04Z32VLC4" device="" value="MKL04Z32VLC4"/>
 <part name="GND17" library="t32_ref" deviceset="GND" device=""/>
