@@ -867,10 +867,10 @@ NOTICE - PCB should be laid out on a 0.5mm grid, or 0.0025" if you have to then 
 <package name="FHXXX">
 <description>Pericom Type FH crystals
 2.5 mm x 2.0 mm</description>
-<smd name="1" x="-0.925" y="-0.775" dx="1" dy="0.95" layer="1"/>
-<smd name="2" x="0.925" y="-0.775" dx="1" dy="0.95" layer="1"/>
-<smd name="3" x="0.925" y="0.775" dx="1" dy="0.95" layer="1"/>
-<smd name="4" x="-0.925" y="0.775" dx="1" dy="0.95" layer="1"/>
+<smd name="1" x="-1.052" y="-0.902" dx="1.27" dy="1.27" layer="1"/>
+<smd name="2" x="1.052" y="-0.902" dx="1.27" dy="1.27" layer="1"/>
+<smd name="3" x="1.052" y="0.902" dx="1.27" dy="1.27" layer="1"/>
+<smd name="4" x="-1.052" y="0.902" dx="1.27" dy="1.27" layer="1"/>
 <wire x1="-1.25" y1="1" x2="1.25" y2="1" width="0.127" layer="21"/>
 <wire x1="1.25" y1="1" x2="1.25" y2="-1" width="0.127" layer="21"/>
 <wire x1="1.25" y1="-1" x2="-1.25" y2="-1" width="0.127" layer="21"/>
@@ -1584,10 +1584,10 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="C10" pad="2"/>
 <contactref element="C11" pad="2"/>
 <contactref element="C13" pad="2"/>
-<wire x1="96.225" y1="37.925" x2="96.15" y2="38" width="0.4" layer="16"/>
+<wire x1="96.098" y1="38.052" x2="96.15" y2="38" width="0.4" layer="16"/>
 <wire x1="96.15" y1="38" x2="95" y2="38" width="0.4" layer="16"/>
 <via x="95" y="38" extent="1-16" drill="0.254"/>
-<wire x1="97.775" y1="36.075" x2="97.85" y2="36" width="0.4" layer="16"/>
+<wire x1="97.902" y1="35.948" x2="97.85" y2="36" width="0.4" layer="16"/>
 <wire x1="97.85" y1="36" x2="99" y2="36" width="0.4" layer="16"/>
 <via x="99" y="36" extent="1-16" drill="0.254"/>
 <wire x1="96.21" y1="54.04" x2="94.04" y2="54.04" width="0.4" layer="16"/>
@@ -2198,13 +2198,13 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="94.21" y1="38.04" x2="94.21" y2="36.79" width="0.2" layer="16"/>
 <wire x1="94.21" y1="36.79" x2="95" y2="36" width="0.2" layer="16"/>
 <wire x1="95" y1="36" x2="96.15" y2="36" width="0.2" layer="16"/>
-<wire x1="96.15" y1="36" x2="96.225" y2="36.075" width="0.2" layer="16"/>
+<wire x1="96.15" y1="36" x2="96.098" y2="35.948" width="0.2" layer="16"/>
 </signal>
 <signal name="N$19">
 <contactref element="U$1" pad="72"/>
 <contactref element="G1" pad="3"/>
 <wire x1="96.21" y1="40.04" x2="97.775" y2="38.475" width="0.2" layer="16"/>
-<wire x1="97.775" y1="38.475" x2="97.775" y2="37.925" width="0.2" layer="16"/>
+<wire x1="97.775" y1="38.475" x2="97.902" y2="38.052" width="0.2" layer="16"/>
 </signal>
 <signal name="N$20">
 <contactref element="G2" pad="2"/>
