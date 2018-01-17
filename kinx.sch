@@ -5903,102 +5903,6 @@ NOTICE - PCB should be laid out on a 0.5mm grid, or 0.0025" if you have to then 
 <library name="molex-105133-0001">
 <packages>
 <package name="MOLEX_105133-0001">
-<wire x1="-2.45" y1="0.25" x2="-3.15" y2="0.25" width="0.005" layer="46"/>
-<wire x1="-3.15" y1="0.25" x2="-3.4" y2="0" width="0.005" layer="46" curve="90"/>
-<wire x1="-3.4" y1="0" x2="-3.15" y2="-0.25" width="0.005" layer="46" curve="90"/>
-<wire x1="-3.15" y1="-0.25" x2="-2.45" y2="-0.25" width="0.005" layer="46"/>
-<wire x1="-2.45" y1="-0.25" x2="-2.2" y2="0" width="0.005" layer="46" curve="90"/>
-<wire x1="-2.2" y1="0" x2="-2.45" y2="0.25" width="0.005" layer="46" curve="90"/>
-<polygon width="0.005" layer="31">
-<vertex x="-3.4" y="0" curve="90"/>
-<vertex x="-3.15" y="-0.25"/>
-<vertex x="-2.45" y="-0.25" curve="90"/>
-<vertex x="-2.2" y="0" curve="90"/>
-<vertex x="-2.45" y="0.25"/>
-<vertex x="-2.8" y="0.25"/>
-<vertex x="-2.8" y="0.55"/>
-<vertex x="-2.45" y="0.55" curve="-90"/>
-<vertex x="-1.9" y="0" curve="-90"/>
-<vertex x="-2.45" y="-0.55"/>
-<vertex x="-3.15" y="-0.55" curve="-90"/>
-<vertex x="-3.7" y="0" curve="-90"/>
-<vertex x="-3.15" y="0.55"/>
-<vertex x="-2.8" y="0.55"/>
-<vertex x="-2.8" y="0.25"/>
-<vertex x="-3.15" y="0.25" curve="90"/>
-</polygon>
-<rectangle x1="-3.95238125" y1="-0.755228125" x2="-1.675" y2="0.75" layer="29"/>
-<rectangle x1="-3.946609375" y1="-0.754128125" x2="-1.675" y2="0.75" layer="30"/>
-<wire x1="3.15" y1="0.25" x2="2.45" y2="0.25" width="0.005" layer="46"/>
-<wire x1="2.45" y1="0.25" x2="2.2" y2="0" width="0.005" layer="46" curve="90"/>
-<wire x1="2.2" y1="0" x2="2.45" y2="-0.25" width="0.005" layer="46" curve="90"/>
-<wire x1="2.45" y1="-0.25" x2="3.15" y2="-0.25" width="0.005" layer="46"/>
-<wire x1="3.15" y1="-0.25" x2="3.4" y2="0" width="0.005" layer="46" curve="90"/>
-<wire x1="3.4" y1="0" x2="3.15" y2="0.25" width="0.005" layer="46" curve="90"/>
-<polygon width="0.005" layer="31">
-<vertex x="2.2" y="0" curve="90"/>
-<vertex x="2.45" y="-0.25"/>
-<vertex x="3.15" y="-0.25" curve="90"/>
-<vertex x="3.4" y="0" curve="90"/>
-<vertex x="3.15" y="0.25"/>
-<vertex x="2.8" y="0.25"/>
-<vertex x="2.8" y="0.55"/>
-<vertex x="3.15" y="0.55" curve="-90"/>
-<vertex x="3.7" y="0" curve="-90"/>
-<vertex x="3.15" y="-0.55"/>
-<vertex x="2.45" y="-0.55" curve="-90"/>
-<vertex x="1.9" y="0" curve="-90"/>
-<vertex x="2.45" y="0.55"/>
-<vertex x="2.8" y="0.55"/>
-<vertex x="2.8" y="0.25"/>
-<vertex x="2.45" y="0.25" curve="90"/>
-</polygon>
-<rectangle x1="1.684840625" y1="-0.754403125" x2="3.925" y2="0.75" layer="29"/>
-<rectangle x1="1.689659375" y1="-0.7565625" x2="3.925" y2="0.75" layer="30"/>
-<wire x1="0.8" y1="-2.15" x2="0.55" y2="-1.9" width="0.005" layer="46" curve="90"/>
-<wire x1="0.55" y1="-1.9" x2="-0.55" y2="-1.9" width="0.005" layer="46"/>
-<wire x1="-0.55" y1="-1.9" x2="-0.8" y2="-2.15" width="0.005" layer="46" curve="90"/>
-<wire x1="-0.8" y1="-2.15" x2="-0.55" y2="-2.4" width="0.005" layer="46" curve="90"/>
-<wire x1="-0.55" y1="-2.4" x2="0.55" y2="-2.4" width="0.005" layer="46"/>
-<wire x1="0.55" y1="-2.4" x2="0.8" y2="-2.15" width="0.005" layer="46" curve="90"/>
-<rectangle x1="-1.25728125" y1="-2.9169" x2="1.25" y2="-1.4" layer="29"/>
-<rectangle x1="-1.25655" y1="-2.9152" x2="1.25" y2="-1.4" layer="30"/>
-<polygon width="0.005" layer="31">
-<vertex x="0" y="-1.9"/>
-<vertex x="0" y="-1.6"/>
-<vertex x="-0.55" y="-1.6" curve="90"/>
-<vertex x="-1.1" y="-2.15" curve="90"/>
-<vertex x="-0.55" y="-2.7"/>
-<vertex x="0.55" y="-2.7" curve="90"/>
-<vertex x="1.1" y="-2.15" curve="90"/>
-<vertex x="0.55" y="-1.6"/>
-<vertex x="0" y="-1.6"/>
-<vertex x="0" y="-1.9"/>
-<vertex x="0.55" y="-1.9" curve="-90"/>
-<vertex x="0.8" y="-2.15" curve="-90"/>
-<vertex x="0.55" y="-2.4"/>
-<vertex x="-0.55" y="-2.4" curve="-90"/>
-<vertex x="-0.8" y="-2.15" curve="-90"/>
-<vertex x="-0.55" y="-1.9"/>
-</polygon>
-<polygon width="0.005" layer="32">
-<vertex x="0" y="-1.9"/>
-<vertex x="0" y="-1.6"/>
-<vertex x="-0.55" y="-1.6" curve="90"/>
-<vertex x="-1.1" y="-2.15" curve="90"/>
-<vertex x="-0.55" y="-2.7"/>
-<vertex x="0.55" y="-2.7" curve="90"/>
-<vertex x="1.1" y="-2.15" curve="90"/>
-<vertex x="0.55" y="-1.6"/>
-<vertex x="0" y="-1.6"/>
-<vertex x="0" y="-1.9"/>
-<vertex x="0.55" y="-1.9" curve="-90"/>
-<vertex x="0.8" y="-2.15" curve="-90"/>
-<vertex x="0.55" y="-2.4"/>
-<vertex x="-0.55" y="-2.4" curve="-90"/>
-<vertex x="-0.8" y="-2.15" curve="-90"/>
-<vertex x="-0.55" y="-1.9"/>
-</polygon>
 <wire x1="-4" y1="1.345" x2="-4" y2="-3.1" width="0.127" layer="51"/>
 <wire x1="-4" y1="-3.1" x2="4" y2="-3.1" width="0.127" layer="51"/>
 <wire x1="4" y1="-3.1" x2="4" y2="1.345" width="0.127" layer="51"/>
@@ -6014,161 +5918,17 @@ NOTICE - PCB should be laid out on a 0.5mm grid, or 0.0025" if you have to then 
 <wire x1="4.25" y1="1.6" x2="-4.25" y2="1.6" width="0.05" layer="39"/>
 <text x="-4.396259375" y="1.690109375" size="0.50300625" layer="25">&gt;NAME</text>
 <text x="-4.393509375" y="-3.99041875" size="0.503840625" layer="27">&gt;VALUE</text>
-<polygon width="0.005" layer="32">
-<vertex x="3.4" y="0" curve="90"/>
-<vertex x="3.15" y="0.25"/>
-<vertex x="2.45" y="0.25" curve="90"/>
-<vertex x="2.2" y="0" curve="90"/>
-<vertex x="2.45" y="-0.25"/>
-<vertex x="2.8" y="-0.25"/>
-<vertex x="2.8" y="-0.55"/>
-<vertex x="2.45" y="-0.55" curve="-90"/>
-<vertex x="1.9" y="0" curve="-90"/>
-<vertex x="2.45" y="0.55"/>
-<vertex x="3.15" y="0.55" curve="-90"/>
-<vertex x="3.7" y="0" curve="-90"/>
-<vertex x="3.15" y="-0.55"/>
-<vertex x="2.8" y="-0.55"/>
-<vertex x="2.8" y="-0.25"/>
-<vertex x="3.15" y="-0.25" curve="90"/>
-</polygon>
-<polygon width="0.005" layer="32">
-<vertex x="-2.2" y="0" curve="90"/>
-<vertex x="-2.45" y="0.25"/>
-<vertex x="-3.15" y="0.25" curve="90"/>
-<vertex x="-3.4" y="0" curve="90"/>
-<vertex x="-3.15" y="-0.25"/>
-<vertex x="-2.8" y="-0.25"/>
-<vertex x="-2.8" y="-0.55"/>
-<vertex x="-3.15" y="-0.55" curve="-90"/>
-<vertex x="-3.7" y="0" curve="-90"/>
-<vertex x="-3.15" y="0.55"/>
-<vertex x="-2.45" y="0.55" curve="-90"/>
-<vertex x="-1.9" y="0" curve="-90"/>
-<vertex x="-2.45" y="-0.55"/>
-<vertex x="-2.8" y="-0.55"/>
-<vertex x="-2.8" y="-0.25"/>
-<vertex x="-2.45" y="-0.25" curve="90"/>
-</polygon>
-<polygon width="0.001" layer="16">
-<vertex x="0" y="-1.9"/>
-<vertex x="0" y="-1.6"/>
-<vertex x="-0.55" y="-1.6" curve="90"/>
-<vertex x="-1.1" y="-2.15" curve="90"/>
-<vertex x="-0.55" y="-2.7"/>
-<vertex x="0.55" y="-2.7" curve="90"/>
-<vertex x="1.1" y="-2.15" curve="90"/>
-<vertex x="0.55" y="-1.6"/>
-<vertex x="0.01" y="-1.6"/>
-<vertex x="0.01" y="-1.9"/>
-<vertex x="0.55" y="-1.9" curve="-90"/>
-<vertex x="0.8" y="-2.15" curve="-90"/>
-<vertex x="0.55" y="-2.4"/>
-<vertex x="-0.55" y="-2.4" curve="-90"/>
-<vertex x="-0.8" y="-2.15" curve="-90"/>
-<vertex x="-0.55" y="-1.9"/>
-</polygon>
-<polygon width="0.001" layer="16">
-<vertex x="-3.4" y="0" curve="90"/>
-<vertex x="-3.15" y="-0.25"/>
-<vertex x="-2.45" y="-0.25" curve="90"/>
-<vertex x="-2.2" y="0" curve="90"/>
-<vertex x="-2.45" y="0.25"/>
-<vertex x="-2.8" y="0.25"/>
-<vertex x="-2.8" y="0.55"/>
-<vertex x="-2.45" y="0.55" curve="-90"/>
-<vertex x="-1.9" y="0" curve="-90"/>
-<vertex x="-2.45" y="-0.55"/>
-<vertex x="-3.15" y="-0.55" curve="-90"/>
-<vertex x="-3.7" y="0" curve="-90"/>
-<vertex x="-3.15" y="0.55"/>
-<vertex x="-2.805" y="0.55"/>
-<vertex x="-2.805" y="0.25"/>
-<vertex x="-3.15" y="0.25" curve="90"/>
-</polygon>
-<polygon width="0.001" layer="16">
-<vertex x="2.2" y="0" curve="90"/>
-<vertex x="2.45" y="-0.25"/>
-<vertex x="3.15" y="-0.25" curve="90"/>
-<vertex x="3.4" y="0" curve="90"/>
-<vertex x="3.15" y="0.25"/>
-<vertex x="2.805" y="0.25"/>
-<vertex x="2.805" y="0.55"/>
-<vertex x="3.15" y="0.55" curve="-90"/>
-<vertex x="3.7" y="0" curve="-90"/>
-<vertex x="3.15" y="-0.55"/>
-<vertex x="2.45" y="-0.55" curve="-90"/>
-<vertex x="1.9" y="0" curve="-90"/>
-<vertex x="2.45" y="0.55"/>
-<vertex x="2.8" y="0.55"/>
-<vertex x="2.8" y="0.25"/>
-<vertex x="2.45" y="0.25" curve="90"/>
-</polygon>
-<polygon width="0.001" layer="1">
-<vertex x="0" y="-1.9"/>
-<vertex x="0" y="-1.6"/>
-<vertex x="-0.55" y="-1.6" curve="90"/>
-<vertex x="-1.1" y="-2.15" curve="90"/>
-<vertex x="-0.55" y="-2.7"/>
-<vertex x="0.55" y="-2.7" curve="90"/>
-<vertex x="1.1" y="-2.15" curve="90"/>
-<vertex x="0.55" y="-1.6"/>
-<vertex x="0.01" y="-1.6"/>
-<vertex x="0.01" y="-1.9"/>
-<vertex x="0.55" y="-1.9" curve="-90"/>
-<vertex x="0.8" y="-2.15" curve="-90"/>
-<vertex x="0.55" y="-2.4"/>
-<vertex x="-0.55" y="-2.4" curve="-90"/>
-<vertex x="-0.8" y="-2.15" curve="-90"/>
-<vertex x="-0.55" y="-1.9"/>
-</polygon>
-<polygon width="0.001" layer="1">
-<vertex x="-3.4" y="0" curve="90"/>
-<vertex x="-3.15" y="-0.25"/>
-<vertex x="-2.45" y="-0.25" curve="90"/>
-<vertex x="-2.2" y="0" curve="90"/>
-<vertex x="-2.45" y="0.25"/>
-<vertex x="-2.8" y="0.25"/>
-<vertex x="-2.8" y="0.55"/>
-<vertex x="-2.45" y="0.55" curve="-90"/>
-<vertex x="-1.9" y="0" curve="-90"/>
-<vertex x="-2.45" y="-0.55"/>
-<vertex x="-3.15" y="-0.55" curve="-90"/>
-<vertex x="-3.7" y="0" curve="-90"/>
-<vertex x="-3.15" y="0.55"/>
-<vertex x="-2.805" y="0.55"/>
-<vertex x="-2.805" y="0.25"/>
-<vertex x="-3.15" y="0.25" curve="90"/>
-</polygon>
-<polygon width="0.001" layer="1">
-<vertex x="2.2" y="0" curve="90"/>
-<vertex x="2.45" y="-0.25"/>
-<vertex x="3.15" y="-0.25" curve="90"/>
-<vertex x="3.4" y="0" curve="90"/>
-<vertex x="3.15" y="0.25"/>
-<vertex x="2.805" y="0.25"/>
-<vertex x="2.805" y="0.55"/>
-<vertex x="3.15" y="0.55" curve="-90"/>
-<vertex x="3.7" y="0" curve="-90"/>
-<vertex x="3.15" y="-0.55"/>
-<vertex x="2.45" y="-0.55" curve="-90"/>
-<vertex x="1.9" y="0" curve="-90"/>
-<vertex x="2.45" y="0.55"/>
-<vertex x="2.8" y="0.55"/>
-<vertex x="2.8" y="0.25"/>
-<vertex x="2.45" y="0.25" curve="90"/>
-</polygon>
 <smd name="1" x="-1.3" y="-0.25" dx="0.45" dy="1.5" layer="1"/>
 <smd name="2" x="-0.65" y="-0.25" dx="0.45" dy="1.5" layer="1"/>
 <smd name="3" x="0" y="-0.25" dx="0.45" dy="1.5" layer="1"/>
 <smd name="4" x="0.65" y="-0.25" dx="0.45" dy="1.5" layer="1"/>
 <smd name="5" x="1.3" y="-0.25" dx="0.45" dy="1.5" layer="1"/>
 <hole x="-2.8" y="0" drill="0.5"/>
-<smd name="S1" x="-2.05" y="0" dx="0.1" dy="0.1" layer="1" stop="no" cream="no"/>
 <hole x="2.8" y="0" drill="0.5"/>
-<smd name="S2" x="3.55" y="0" dx="0.1" dy="0.1" layer="1" stop="no" cream="no"/>
 <hole x="0" y="-2.15" drill="0.5"/>
-<smd name="S3" x="0.95" y="-2.15" dx="0.1" dy="0.1" layer="1" stop="no" cream="no"/>
+<pad name="P$1" x="-2.794" y="0" drill="0.8" shape="offset" rot="R180"/>
+<pad name="P$2" x="2.794" y="0" drill="0.8" shape="offset"/>
+<pad name="P$3" x="0" y="-2.159" drill="0.8" shape="long"/>
 </package>
 </packages>
 <symbols>
@@ -6200,7 +5960,7 @@ NOTICE - PCB should be laid out on a 0.5mm grid, or 0.0025" if you have to then 
 <connect gate="G$1" pin="D-" pad="2"/>
 <connect gate="G$1" pin="GND" pad="5"/>
 <connect gate="G$1" pin="ID" pad="4"/>
-<connect gate="G$1" pin="SHIELD" pad="S1 S2 S3"/>
+<connect gate="G$1" pin="SHIELD" pad="P$1 P$2 P$3"/>
 <connect gate="G$1" pin="VBUS" pad="1"/>
 </connects>
 <technologies>
