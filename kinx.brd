@@ -1479,7 +1479,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="OC_MOUSER" value="81-GRM39X104K16" x="81.497" y="57.052" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="PACKAGE" value="0603" x="81.497" y="57.052" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="TYPE" value="Capacitor" x="81.497" y="57.052" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="VALUE" x="89.4615" y="61.957" size="0.635" layer="28" font="vector" ratio="10" rot="MR90"/>
+<attribute name="VALUE" x="89.4615" y="61.957" size="0.635" layer="26" font="vector" ratio="10" rot="MR90"/>
 </element>
 </elements>
 <signals>
