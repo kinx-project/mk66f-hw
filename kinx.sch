@@ -6135,6 +6135,8 @@ NOTICE - PCB should be laid out on a 0.5mm grid, or 0.0025" if you have to then 
 <part name="GND36" library="t32_ref" deviceset="GND" device=""/>
 <part name="C13" library="t32_ref" deviceset="CAPACITOR-0.1UF" device="" value="0.1uF"/>
 <part name="GND37" library="t32_ref" deviceset="GND" device=""/>
+<part name="GND38" library="t32_ref" deviceset="GND" device=""/>
+<part name="GND39" library="t32_ref" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -6344,6 +6346,8 @@ NOTICE - PCB should be laid out on a 0.5mm grid, or 0.0025" if you have to then 
 <instance part="GND36" gate="1" x="-193.04" y="132.08" rot="R90"/>
 <instance part="C13" gate="G$1" x="-171.45" y="-15.24" rot="R90"/>
 <instance part="GND37" gate="1" x="-167.64" y="-15.24" rot="R90"/>
+<instance part="GND38" gate="1" x="-246.38" y="55.88" rot="R270"/>
+<instance part="GND39" gate="1" x="-246.38" y="40.64" rot="R270"/>
 </instances>
 <busses>
 </busses>
@@ -6855,6 +6859,16 @@ NOTICE - PCB should be laid out on a 0.5mm grid, or 0.0025" if you have to then 
 <pinref part="USBHS" gate="G$1" pin="GND"/>
 <pinref part="GND8" gate="1" pin="GND"/>
 <wire x1="-294.64" y1="40.64" x2="-291.592" y2="40.64" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND38" gate="1" pin="GND"/>
+<pinref part="U$1" gate="G$1" pin="VSS@3"/>
+<wire x1="-245.11" y1="55.88" x2="-241.3" y2="55.88" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND39" gate="1" pin="GND"/>
+<pinref part="U$1" gate="G$1" pin="USB1_VSS"/>
+<wire x1="-245.11" y1="40.64" x2="-241.3" y2="40.64" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="ROW_4" class="0">
