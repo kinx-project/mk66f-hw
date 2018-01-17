@@ -5724,175 +5724,6 @@ NOTICE - PCB should be laid out on a 0.5mm grid, or 0.0025" if you have to then 
 </deviceset>
 </devicesets>
 </library>
-<library name="wurth-io-rev17e">
-<description>&lt;BR&gt;Wurth Elektronik - Input/Output Connectors &lt;br&gt;&lt;Hr&gt;
-&lt;BR&gt;&lt;BR&gt; 
-&lt;TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0&gt;
-&lt;TR&gt;   
-&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;&lt;br&gt;
-      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
-       &lt;BR&gt;
-       &lt;BR&gt;
-       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
-    &lt;/TD&gt;
-&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
-      -----&lt;BR&gt;
-      -----&lt;BR&gt;
-      -----&lt;BR&gt;
-      -----&lt;BR&gt;
-      -----&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
-    &lt;/TD&gt;
-    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt; &lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
-      ---------------------------&lt;BR&gt;
-&lt;B&gt;&lt;I&gt;&lt;span style='font-size:26pt;
-  color:#FF6600;'&gt;WE &lt;/span&gt;&lt;/i&gt;&lt;/b&gt;
-&lt;BR&gt;
-      ---------------------------&lt;BR&gt;&lt;b&gt;Würth Elektronik&lt;/b&gt;&lt;/FONT&gt;
-    &lt;/TD&gt;
-    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
-      ---------O---&lt;BR&gt;
-      ----O--------&lt;BR&gt;
-      ---------O---&lt;BR&gt;
-      ----O--------&lt;BR&gt;
-      ---------O---&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
-    &lt;/TD&gt;
-   
-&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;
-      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
-       &lt;BR&gt;
-       &lt;BR&gt;
-       &lt;BR&gt;
-       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
-    &lt;/TD&gt;
-  &lt;/TR&gt;
-
-  &lt;TR&gt;
-    &lt;TD COLSPAN=7&gt;&amp;nbsp;
-    &lt;/TD&gt;
-  &lt;/TR&gt;
-  
-&lt;/TABLE&gt;
-&lt;B&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;More than you expect&lt;BR&gt;&lt;BR&gt;&lt;BR&gt;&lt;/B&gt;
-
-&lt;HR&gt;&lt;BR&gt;
-&lt;b&gt;Würth Elektronik eiSos GmbH &amp; Co. KG&lt;/b&gt;&lt;br&gt;
-EMC &amp; Inductive Solutions&lt;br&gt;
-
-Max-Eyth-Str.1&lt;br&gt;
-D-74638 Waldenburg&lt;br&gt;
-&lt;br&gt;
-Tel: +49 (0)7942-945-0&lt;br&gt;
-Fax:+49 (0)7942-945-405&lt;br&gt;
-&lt;br&gt;
-&lt;a href="http://www.we-online.com/web/en/electronic_components/produkte_pb/bauteilebibliotheken/eagle_4.php"&gt;www.we-online.com/eagle&lt;/a&gt;&lt;br&gt;
-&lt;a href="mailto:libraries@we-online.com"&gt;libraries@we-online.com&lt;/a&gt; &lt;BR&gt;&lt;BR&gt;
-&lt;br&gt;&lt;HR&gt;&lt;BR&gt;
-Neither Autodesk nor Würth Elektronik eiSos does warrant that this library is error-free or &lt;br&gt;
-that it meets your specific requirements.&lt;br&gt;&lt;BR&gt;
-Please contact us for more information.&lt;br&gt;&lt;BR&gt;&lt;br&gt;
-&lt;hr&gt;
-Eagle Version 6, Library Revision 2017e,2017-12-08&lt;br&gt;
-&lt;HR&gt;
-Copyright: Würth Elektronik</description>
-<packages>
-<package name="614105150721">
-<description>&lt;b&gt;614105150721&lt;/b&gt;&lt;p&gt;
-WR-COM_USB_Micro Type B_Vertical_THT Micro Type B Vertical THT- Tape &amp; Reel not for Pick &amp; Place machine</description>
-<wire x1="-4" y1="-1.45" x2="-4" y2="1.45" width="0.127" layer="51"/>
-<wire x1="-4" y1="1.45" x2="4" y2="1.45" width="0.127" layer="21"/>
-<wire x1="4" y1="-1.45" x2="4" y2="1.45" width="0.127" layer="51"/>
-<wire x1="-4" y1="-1.45" x2="4" y2="-1.45" width="0.127" layer="21"/>
-<pad name="1" x="-1.3" y="0.22" drill="0.4" rot="R270"/>
-<pad name="2" x="-0.65" y="-0.78" drill="0.4" rot="R90"/>
-<pad name="3" x="0" y="0.22" drill="0.4" rot="R270"/>
-<pad name="4" x="0.65" y="-0.78" drill="0.4" rot="R90"/>
-<pad name="5" x="1.3" y="0.22" drill="0.4" rot="R270"/>
-<pad name="SHELL" x="-3.575" y="0" drill="0.35" diameter="0.97" shape="long" rot="R90"/>
-<pad name="SHELL1" x="3.575" y="0" drill="0.35" diameter="0.97" shape="long" rot="R90"/>
-<text x="-2.8016" y="2.56271875" size="1.27" layer="25" font="vector" ratio="13" rot="SR0">&gt;NAME</text>
-<text x="-3.4016" y="-3.4" size="1.27" layer="27" font="vector" ratio="13" rot="SR0">&gt;VALUE</text>
-<wire x1="3.4" y1="0.575" x2="3.4" y2="-0.575" width="0.127" layer="46"/>
-<wire x1="3.745" y1="0.505" x2="3.745" y2="-0.505" width="0.127" layer="46"/>
-<wire x1="3.395" y1="0.505" x2="3.745" y2="0.505" width="0.127" layer="46" curve="-180"/>
-<wire x1="3.395" y1="-0.505" x2="3.745" y2="-0.505" width="0.127" layer="46" curve="180"/>
-<wire x1="-3.755" y1="0.505" x2="-3.755" y2="-0.505" width="0.127" layer="46"/>
-<wire x1="-3.405" y1="0.505" x2="-3.405" y2="-0.505" width="0.127" layer="46"/>
-<wire x1="-3.755" y1="0.505" x2="-3.405" y2="0.505" width="0.127" layer="46" curve="-180"/>
-<wire x1="-3.755" y1="-0.505" x2="-3.405" y2="-0.505" width="0.127" layer="46" curve="180"/>
-<wire x1="-4" y1="1.01" x2="-4" y2="1.45" width="0.127" layer="21"/>
-<wire x1="4" y1="1.01" x2="4" y2="1.45" width="0.127" layer="21"/>
-<wire x1="4" y1="-1.01" x2="4" y2="-1.45" width="0.127" layer="21"/>
-<wire x1="-4" y1="-1.01" x2="-4" y2="-1.45" width="0.127" layer="21"/>
-<polygon width="0.127" layer="39">
-<vertex x="-4.25" y="1.7"/>
-<vertex x="4.25" y="1.7"/>
-<vertex x="4.25" y="-1.7"/>
-<vertex x="-4.25" y="-1.7"/>
-</polygon>
-<text x="-2.4" y="0" size="0.6096" layer="48">1</text>
-<text x="-1.7" y="-1.1" size="0.6096" layer="48">2</text>
-<text x="2" y="0" size="0.6096" layer="48">5</text>
-<text x="-2.4" y="0.03" size="0.6096" layer="21">1</text>
-</package>
-</packages>
-<symbols>
-<symbol name="5_USB_A">
-<wire x1="-2.54" y1="-7.62" x2="-2.54" y2="7.62" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="7.62" x2="3.81" y2="7.62" width="0.254" layer="94"/>
-<wire x1="3.81" y1="-7.62" x2="-2.54" y2="-7.62" width="0.254" layer="94"/>
-<text x="-2.54" y="10.668" size="1.778" layer="95">&gt;NAME</text>
-<text x="-2.54" y="-13.97" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="GND" x="-7.62" y="5.08" length="middle" direction="pas"/>
-<pin name="ID" x="-7.62" y="2.54" length="middle" direction="pas"/>
-<pin name="D+" x="-7.62" y="0" length="middle" direction="pas"/>
-<pin name="D-" x="-7.62" y="-2.54" length="middle" direction="pas"/>
-<pin name="VBUS" x="-7.62" y="-5.08" length="middle" direction="pas"/>
-<wire x1="5.08" y1="8.89" x2="5.08" y2="-8.89" width="0.254" layer="94" style="shortdash"/>
-<wire x1="5.08" y1="-8.89" x2="1.27" y2="-8.89" width="0.254" layer="94" style="shortdash"/>
-<wire x1="1.27" y1="-8.89" x2="1.27" y2="-10.16" width="0.254" layer="94" style="shortdash"/>
-<pin name="SHIELD" x="-5.08" y="-10.16" length="middle" direction="pas"/>
-<wire x1="0" y1="-10.16" x2="1.27" y2="-10.16" width="0.254" layer="94" style="shortdash"/>
-<wire x1="1.27" y1="8.89" x2="5.08" y2="8.89" width="0.254" layer="94" style="shortdash"/>
-<text x="4.445" y="-2.2225" size="1.778" layer="94" rot="R90">USB</text>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="614105150721" prefix="J" uservalue="yes">
-<description>&lt;b&gt;WR-COM_USB_Micro Type B_Vertical_THT;&lt;BR&gt;
-&lt;/b&gt;Micro Type B Vertical THT- Tape &amp; Reel not for Pick &amp; Place machine
-&lt;/b&gt;&lt;br&gt;Code : Con_I-O_COM_USB_2.0_B_614105150721_614105150721
-
-
-
-
-&lt;p&gt;&lt;a href="http://katalog.we-online.de/media/images/eican/Con_I-O_COM_USB_2.0_B_614105150721_pf2.jpg"&gt;
-
-&lt;img src="http://katalog.we-online.de/media/images/eican/Con_I-O_COM_USB_2.0_B_614105150721_pf2.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
-
-&lt;p&gt;Details see: &lt;a href="http://katalog.we-online.de/em/datasheet/614105150721.pdf"&gt;http://katalog.we-online.de/em/datasheet/614105150721.pdf&lt;/a&gt;
-&lt;p&gt;Created 12/08/2014, Dan Xu
-&lt;p&gt;2014 (C) Wurth Elektronik</description>
-<gates>
-<gate name="G$1" symbol="5_USB_A" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="614105150721">
-<connects>
-<connect gate="G$1" pin="D+" pad="3"/>
-<connect gate="G$1" pin="D-" pad="2"/>
-<connect gate="G$1" pin="GND" pad="5"/>
-<connect gate="G$1" pin="ID" pad="4"/>
-<connect gate="G$1" pin="SHIELD" pad="SHELL SHELL1"/>
-<connect gate="G$1" pin="VBUS" pad="1"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="supply1" urn="urn:adsk.eagle:library:371">
 <description>&lt;b&gt;Supply Symbols&lt;/b&gt;&lt;p&gt;
  GND, VCC, 0V, +5V, -5V, etc.&lt;p&gt;
@@ -6069,6 +5900,324 @@ WR-COM_USB_Micro Type B_Vertical_THT Micro Type B Vertical THT- Tape &amp; Reel 
 </deviceset>
 </devicesets>
 </library>
+<library name="molex-105133-0001">
+<packages>
+<package name="MOLEX_105133-0001">
+<wire x1="-2.45" y1="0.25" x2="-3.15" y2="0.25" width="0.005" layer="46"/>
+<wire x1="-3.15" y1="0.25" x2="-3.4" y2="0" width="0.005" layer="46" curve="90"/>
+<wire x1="-3.4" y1="0" x2="-3.15" y2="-0.25" width="0.005" layer="46" curve="90"/>
+<wire x1="-3.15" y1="-0.25" x2="-2.45" y2="-0.25" width="0.005" layer="46"/>
+<wire x1="-2.45" y1="-0.25" x2="-2.2" y2="0" width="0.005" layer="46" curve="90"/>
+<wire x1="-2.2" y1="0" x2="-2.45" y2="0.25" width="0.005" layer="46" curve="90"/>
+<polygon width="0.005" layer="31">
+<vertex x="-3.4" y="0" curve="90"/>
+<vertex x="-3.15" y="-0.25"/>
+<vertex x="-2.45" y="-0.25" curve="90"/>
+<vertex x="-2.2" y="0" curve="90"/>
+<vertex x="-2.45" y="0.25"/>
+<vertex x="-2.8" y="0.25"/>
+<vertex x="-2.8" y="0.55"/>
+<vertex x="-2.45" y="0.55" curve="-90"/>
+<vertex x="-1.9" y="0" curve="-90"/>
+<vertex x="-2.45" y="-0.55"/>
+<vertex x="-3.15" y="-0.55" curve="-90"/>
+<vertex x="-3.7" y="0" curve="-90"/>
+<vertex x="-3.15" y="0.55"/>
+<vertex x="-2.8" y="0.55"/>
+<vertex x="-2.8" y="0.25"/>
+<vertex x="-3.15" y="0.25" curve="90"/>
+</polygon>
+<rectangle x1="-3.95238125" y1="-0.755228125" x2="-1.675" y2="0.75" layer="29"/>
+<rectangle x1="-3.946609375" y1="-0.754128125" x2="-1.675" y2="0.75" layer="30"/>
+<wire x1="3.15" y1="0.25" x2="2.45" y2="0.25" width="0.005" layer="46"/>
+<wire x1="2.45" y1="0.25" x2="2.2" y2="0" width="0.005" layer="46" curve="90"/>
+<wire x1="2.2" y1="0" x2="2.45" y2="-0.25" width="0.005" layer="46" curve="90"/>
+<wire x1="2.45" y1="-0.25" x2="3.15" y2="-0.25" width="0.005" layer="46"/>
+<wire x1="3.15" y1="-0.25" x2="3.4" y2="0" width="0.005" layer="46" curve="90"/>
+<wire x1="3.4" y1="0" x2="3.15" y2="0.25" width="0.005" layer="46" curve="90"/>
+<polygon width="0.005" layer="31">
+<vertex x="2.2" y="0" curve="90"/>
+<vertex x="2.45" y="-0.25"/>
+<vertex x="3.15" y="-0.25" curve="90"/>
+<vertex x="3.4" y="0" curve="90"/>
+<vertex x="3.15" y="0.25"/>
+<vertex x="2.8" y="0.25"/>
+<vertex x="2.8" y="0.55"/>
+<vertex x="3.15" y="0.55" curve="-90"/>
+<vertex x="3.7" y="0" curve="-90"/>
+<vertex x="3.15" y="-0.55"/>
+<vertex x="2.45" y="-0.55" curve="-90"/>
+<vertex x="1.9" y="0" curve="-90"/>
+<vertex x="2.45" y="0.55"/>
+<vertex x="2.8" y="0.55"/>
+<vertex x="2.8" y="0.25"/>
+<vertex x="2.45" y="0.25" curve="90"/>
+</polygon>
+<rectangle x1="1.684840625" y1="-0.754403125" x2="3.925" y2="0.75" layer="29"/>
+<rectangle x1="1.689659375" y1="-0.7565625" x2="3.925" y2="0.75" layer="30"/>
+<wire x1="0.8" y1="-2.15" x2="0.55" y2="-1.9" width="0.005" layer="46" curve="90"/>
+<wire x1="0.55" y1="-1.9" x2="-0.55" y2="-1.9" width="0.005" layer="46"/>
+<wire x1="-0.55" y1="-1.9" x2="-0.8" y2="-2.15" width="0.005" layer="46" curve="90"/>
+<wire x1="-0.8" y1="-2.15" x2="-0.55" y2="-2.4" width="0.005" layer="46" curve="90"/>
+<wire x1="-0.55" y1="-2.4" x2="0.55" y2="-2.4" width="0.005" layer="46"/>
+<wire x1="0.55" y1="-2.4" x2="0.8" y2="-2.15" width="0.005" layer="46" curve="90"/>
+<rectangle x1="-1.25728125" y1="-2.9169" x2="1.25" y2="-1.4" layer="29"/>
+<rectangle x1="-1.25655" y1="-2.9152" x2="1.25" y2="-1.4" layer="30"/>
+<polygon width="0.005" layer="31">
+<vertex x="0" y="-1.9"/>
+<vertex x="0" y="-1.6"/>
+<vertex x="-0.55" y="-1.6" curve="90"/>
+<vertex x="-1.1" y="-2.15" curve="90"/>
+<vertex x="-0.55" y="-2.7"/>
+<vertex x="0.55" y="-2.7" curve="90"/>
+<vertex x="1.1" y="-2.15" curve="90"/>
+<vertex x="0.55" y="-1.6"/>
+<vertex x="0" y="-1.6"/>
+<vertex x="0" y="-1.9"/>
+<vertex x="0.55" y="-1.9" curve="-90"/>
+<vertex x="0.8" y="-2.15" curve="-90"/>
+<vertex x="0.55" y="-2.4"/>
+<vertex x="-0.55" y="-2.4" curve="-90"/>
+<vertex x="-0.8" y="-2.15" curve="-90"/>
+<vertex x="-0.55" y="-1.9"/>
+</polygon>
+<polygon width="0.005" layer="32">
+<vertex x="0" y="-1.9"/>
+<vertex x="0" y="-1.6"/>
+<vertex x="-0.55" y="-1.6" curve="90"/>
+<vertex x="-1.1" y="-2.15" curve="90"/>
+<vertex x="-0.55" y="-2.7"/>
+<vertex x="0.55" y="-2.7" curve="90"/>
+<vertex x="1.1" y="-2.15" curve="90"/>
+<vertex x="0.55" y="-1.6"/>
+<vertex x="0" y="-1.6"/>
+<vertex x="0" y="-1.9"/>
+<vertex x="0.55" y="-1.9" curve="-90"/>
+<vertex x="0.8" y="-2.15" curve="-90"/>
+<vertex x="0.55" y="-2.4"/>
+<vertex x="-0.55" y="-2.4" curve="-90"/>
+<vertex x="-0.8" y="-2.15" curve="-90"/>
+<vertex x="-0.55" y="-1.9"/>
+</polygon>
+<wire x1="-4" y1="1.345" x2="-4" y2="-3.1" width="0.127" layer="51"/>
+<wire x1="-4" y1="-3.1" x2="4" y2="-3.1" width="0.127" layer="51"/>
+<wire x1="4" y1="-3.1" x2="4" y2="1.345" width="0.127" layer="51"/>
+<wire x1="-4" y1="1.345" x2="4" y2="1.345" width="0.127" layer="51"/>
+<wire x1="-4" y1="1.34" x2="-4" y2="-3.1" width="0.127" layer="21"/>
+<wire x1="-4" y1="-3.1" x2="4" y2="-3.1" width="0.127" layer="21"/>
+<wire x1="4" y1="-3.1" x2="4" y2="1.35" width="0.127" layer="21"/>
+<wire x1="4" y1="1.35" x2="-4" y2="1.35" width="0.127" layer="21"/>
+<circle x="-1.33" y="0.98" radius="0.1" width="0.13" layer="21"/>
+<wire x1="-4.25" y1="1.6" x2="-4.25" y2="-3.35" width="0.05" layer="39"/>
+<wire x1="-4.25" y1="-3.35" x2="4.25" y2="-3.35" width="0.05" layer="39"/>
+<wire x1="4.25" y1="-3.35" x2="4.25" y2="1.6" width="0.05" layer="39"/>
+<wire x1="4.25" y1="1.6" x2="-4.25" y2="1.6" width="0.05" layer="39"/>
+<text x="-4.396259375" y="1.690109375" size="0.50300625" layer="25">&gt;NAME</text>
+<text x="-4.393509375" y="-3.99041875" size="0.503840625" layer="27">&gt;VALUE</text>
+<polygon width="0.005" layer="32">
+<vertex x="3.4" y="0" curve="90"/>
+<vertex x="3.15" y="0.25"/>
+<vertex x="2.45" y="0.25" curve="90"/>
+<vertex x="2.2" y="0" curve="90"/>
+<vertex x="2.45" y="-0.25"/>
+<vertex x="2.8" y="-0.25"/>
+<vertex x="2.8" y="-0.55"/>
+<vertex x="2.45" y="-0.55" curve="-90"/>
+<vertex x="1.9" y="0" curve="-90"/>
+<vertex x="2.45" y="0.55"/>
+<vertex x="3.15" y="0.55" curve="-90"/>
+<vertex x="3.7" y="0" curve="-90"/>
+<vertex x="3.15" y="-0.55"/>
+<vertex x="2.8" y="-0.55"/>
+<vertex x="2.8" y="-0.25"/>
+<vertex x="3.15" y="-0.25" curve="90"/>
+</polygon>
+<polygon width="0.005" layer="32">
+<vertex x="-2.2" y="0" curve="90"/>
+<vertex x="-2.45" y="0.25"/>
+<vertex x="-3.15" y="0.25" curve="90"/>
+<vertex x="-3.4" y="0" curve="90"/>
+<vertex x="-3.15" y="-0.25"/>
+<vertex x="-2.8" y="-0.25"/>
+<vertex x="-2.8" y="-0.55"/>
+<vertex x="-3.15" y="-0.55" curve="-90"/>
+<vertex x="-3.7" y="0" curve="-90"/>
+<vertex x="-3.15" y="0.55"/>
+<vertex x="-2.45" y="0.55" curve="-90"/>
+<vertex x="-1.9" y="0" curve="-90"/>
+<vertex x="-2.45" y="-0.55"/>
+<vertex x="-2.8" y="-0.55"/>
+<vertex x="-2.8" y="-0.25"/>
+<vertex x="-2.45" y="-0.25" curve="90"/>
+</polygon>
+<polygon width="0.001" layer="16">
+<vertex x="0" y="-1.9"/>
+<vertex x="0" y="-1.6"/>
+<vertex x="-0.55" y="-1.6" curve="90"/>
+<vertex x="-1.1" y="-2.15" curve="90"/>
+<vertex x="-0.55" y="-2.7"/>
+<vertex x="0.55" y="-2.7" curve="90"/>
+<vertex x="1.1" y="-2.15" curve="90"/>
+<vertex x="0.55" y="-1.6"/>
+<vertex x="0.01" y="-1.6"/>
+<vertex x="0.01" y="-1.9"/>
+<vertex x="0.55" y="-1.9" curve="-90"/>
+<vertex x="0.8" y="-2.15" curve="-90"/>
+<vertex x="0.55" y="-2.4"/>
+<vertex x="-0.55" y="-2.4" curve="-90"/>
+<vertex x="-0.8" y="-2.15" curve="-90"/>
+<vertex x="-0.55" y="-1.9"/>
+</polygon>
+<polygon width="0.001" layer="16">
+<vertex x="-3.4" y="0" curve="90"/>
+<vertex x="-3.15" y="-0.25"/>
+<vertex x="-2.45" y="-0.25" curve="90"/>
+<vertex x="-2.2" y="0" curve="90"/>
+<vertex x="-2.45" y="0.25"/>
+<vertex x="-2.8" y="0.25"/>
+<vertex x="-2.8" y="0.55"/>
+<vertex x="-2.45" y="0.55" curve="-90"/>
+<vertex x="-1.9" y="0" curve="-90"/>
+<vertex x="-2.45" y="-0.55"/>
+<vertex x="-3.15" y="-0.55" curve="-90"/>
+<vertex x="-3.7" y="0" curve="-90"/>
+<vertex x="-3.15" y="0.55"/>
+<vertex x="-2.805" y="0.55"/>
+<vertex x="-2.805" y="0.25"/>
+<vertex x="-3.15" y="0.25" curve="90"/>
+</polygon>
+<polygon width="0.001" layer="16">
+<vertex x="2.2" y="0" curve="90"/>
+<vertex x="2.45" y="-0.25"/>
+<vertex x="3.15" y="-0.25" curve="90"/>
+<vertex x="3.4" y="0" curve="90"/>
+<vertex x="3.15" y="0.25"/>
+<vertex x="2.805" y="0.25"/>
+<vertex x="2.805" y="0.55"/>
+<vertex x="3.15" y="0.55" curve="-90"/>
+<vertex x="3.7" y="0" curve="-90"/>
+<vertex x="3.15" y="-0.55"/>
+<vertex x="2.45" y="-0.55" curve="-90"/>
+<vertex x="1.9" y="0" curve="-90"/>
+<vertex x="2.45" y="0.55"/>
+<vertex x="2.8" y="0.55"/>
+<vertex x="2.8" y="0.25"/>
+<vertex x="2.45" y="0.25" curve="90"/>
+</polygon>
+<polygon width="0.001" layer="1">
+<vertex x="0" y="-1.9"/>
+<vertex x="0" y="-1.6"/>
+<vertex x="-0.55" y="-1.6" curve="90"/>
+<vertex x="-1.1" y="-2.15" curve="90"/>
+<vertex x="-0.55" y="-2.7"/>
+<vertex x="0.55" y="-2.7" curve="90"/>
+<vertex x="1.1" y="-2.15" curve="90"/>
+<vertex x="0.55" y="-1.6"/>
+<vertex x="0.01" y="-1.6"/>
+<vertex x="0.01" y="-1.9"/>
+<vertex x="0.55" y="-1.9" curve="-90"/>
+<vertex x="0.8" y="-2.15" curve="-90"/>
+<vertex x="0.55" y="-2.4"/>
+<vertex x="-0.55" y="-2.4" curve="-90"/>
+<vertex x="-0.8" y="-2.15" curve="-90"/>
+<vertex x="-0.55" y="-1.9"/>
+</polygon>
+<polygon width="0.001" layer="1">
+<vertex x="-3.4" y="0" curve="90"/>
+<vertex x="-3.15" y="-0.25"/>
+<vertex x="-2.45" y="-0.25" curve="90"/>
+<vertex x="-2.2" y="0" curve="90"/>
+<vertex x="-2.45" y="0.25"/>
+<vertex x="-2.8" y="0.25"/>
+<vertex x="-2.8" y="0.55"/>
+<vertex x="-2.45" y="0.55" curve="-90"/>
+<vertex x="-1.9" y="0" curve="-90"/>
+<vertex x="-2.45" y="-0.55"/>
+<vertex x="-3.15" y="-0.55" curve="-90"/>
+<vertex x="-3.7" y="0" curve="-90"/>
+<vertex x="-3.15" y="0.55"/>
+<vertex x="-2.805" y="0.55"/>
+<vertex x="-2.805" y="0.25"/>
+<vertex x="-3.15" y="0.25" curve="90"/>
+</polygon>
+<polygon width="0.001" layer="1">
+<vertex x="2.2" y="0" curve="90"/>
+<vertex x="2.45" y="-0.25"/>
+<vertex x="3.15" y="-0.25" curve="90"/>
+<vertex x="3.4" y="0" curve="90"/>
+<vertex x="3.15" y="0.25"/>
+<vertex x="2.805" y="0.25"/>
+<vertex x="2.805" y="0.55"/>
+<vertex x="3.15" y="0.55" curve="-90"/>
+<vertex x="3.7" y="0" curve="-90"/>
+<vertex x="3.15" y="-0.55"/>
+<vertex x="2.45" y="-0.55" curve="-90"/>
+<vertex x="1.9" y="0" curve="-90"/>
+<vertex x="2.45" y="0.55"/>
+<vertex x="2.8" y="0.55"/>
+<vertex x="2.8" y="0.25"/>
+<vertex x="2.45" y="0.25" curve="90"/>
+</polygon>
+<smd name="1" x="-1.3" y="-0.25" dx="0.45" dy="1.5" layer="1"/>
+<smd name="2" x="-0.65" y="-0.25" dx="0.45" dy="1.5" layer="1"/>
+<smd name="3" x="0" y="-0.25" dx="0.45" dy="1.5" layer="1"/>
+<smd name="4" x="0.65" y="-0.25" dx="0.45" dy="1.5" layer="1"/>
+<smd name="5" x="1.3" y="-0.25" dx="0.45" dy="1.5" layer="1"/>
+<hole x="-2.8" y="0" drill="0.5"/>
+<smd name="S1" x="-2.05" y="0" dx="0.1" dy="0.1" layer="1" stop="no" cream="no"/>
+<hole x="2.8" y="0" drill="0.5"/>
+<smd name="S2" x="3.55" y="0" dx="0.1" dy="0.1" layer="1" stop="no" cream="no"/>
+<hole x="0" y="-2.15" drill="0.5"/>
+<smd name="S3" x="0.95" y="-2.15" dx="0.1" dy="0.1" layer="1" stop="no" cream="no"/>
+</package>
+</packages>
+<symbols>
+<symbol name="105133-0001">
+<wire x1="5.08" y1="10.16" x2="5.08" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-10.16" x2="-5.08" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-10.16" x2="-5.08" y2="10.16" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="10.16" x2="5.08" y2="10.16" width="0.254" layer="94"/>
+<text x="-5.632190625" y="10.7523" size="1.814240625" layer="95">&gt;NAME</text>
+<text x="-5.610159375" y="-12.4953" size="1.807140625" layer="96">&gt;VALUE</text>
+<pin name="VBUS" x="-7.62" y="7.62" length="short" direction="pwr"/>
+<pin name="D-" x="-7.62" y="5.08" length="short"/>
+<pin name="D+" x="-7.62" y="2.54" length="short"/>
+<pin name="ID" x="-7.62" y="0" length="short" direction="in"/>
+<pin name="GND" x="-7.62" y="-2.54" length="short" direction="pwr"/>
+<pin name="SHIELD" x="-7.62" y="-7.62" length="short" direction="pas"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="105133-0001" prefix="J">
+<description>Conn Micro USB Type B RCP 5 POS 0.65mm Solder RA SMD 5 Terminal 1 Port Embossed T/R</description>
+<gates>
+<gate name="G$1" symbol="105133-0001" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="MOLEX_105133-0001">
+<connects>
+<connect gate="G$1" pin="D+" pad="3"/>
+<connect gate="G$1" pin="D-" pad="2"/>
+<connect gate="G$1" pin="GND" pad="5"/>
+<connect gate="G$1" pin="ID" pad="4"/>
+<connect gate="G$1" pin="SHIELD" pad="S1 S2 S3"/>
+<connect gate="G$1" pin="VBUS" pad="1"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="AVAILABILITY" value="Good"/>
+<attribute name="DESCRIPTION" value=" Conn Micro USB Type B RCP 5 POS 0.65mm Solder RA SMD 5 Terminal 1 Port Embossed T/R "/>
+<attribute name="MF" value="Molex"/>
+<attribute name="MP" value="105133-0001"/>
+<attribute name="PACKAGE" value="None"/>
+<attribute name="PRICE" value="0.48 USD"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -6169,13 +6318,13 @@ WR-COM_USB_Micro Type B_Vertical_THT Micro Type B Vertical THT- Tape &amp; Reel 
 <part name="R9" library="t32_ref" deviceset="RESISTOR-33R" device="" value="33R"/>
 <part name="GND15" library="t32_ref" deviceset="GND" device=""/>
 <part name="GND12" library="t32_ref" deviceset="GND" device=""/>
-<part name="USBFS" library="wurth-io-rev17e" deviceset="614105150721" device="">
-<attribute name="DIGIKEY" value="732-5958-1-ND"/>
-<attribute name="OC_MOUSER" value="710-614105150721"/>
+<part name="USBFS" library="molex-105133-0001" deviceset="105133-0001" device="">
+<attribute name="DIGIKEY" value="WM9734CT-ND"/>
+<attribute name="OC_MOUSER" value="538-105133-0001"/>
 </part>
-<part name="USBHS" library="wurth-io-rev17e" deviceset="614105150721" device="">
-<attribute name="DIGIKEY" value="732-5958-1-ND"/>
-<attribute name="OC_MOUSER" value="710-614105150721"/>
+<part name="USBHS" library="molex-105133-0001" deviceset="105133-0001" device="">
+<attribute name="DIGIKEY" value="WM9734CT-ND"/>
+<attribute name="OC_MOUSER" value="538-105133-0001"/>
 </part>
 <part name="+3V1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="+3V2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
@@ -6343,14 +6492,14 @@ WR-COM_USB_Micro Type B_Vertical_THT Micro Type B Vertical THT- Tape &amp; Reel 
 <instance part="GND6" gate="1" x="-247.65" y="99.06" rot="R180"/>
 <instance part="GND14" gate="1" x="-177.8" y="-85.09" rot="R90"/>
 <instance part="GND4" gate="1" x="-272.796" y="91.44"/>
-<instance part="R5" gate="G$1" x="-284.48" y="55.88"/>
+<instance part="R5" gate="G$1" x="-276.86" y="50.8"/>
 <instance part="R8" gate="G$1" x="-93.98" y="-33.02" smashed="yes" rot="R90">
 <attribute name="NAME" x="-92.71" y="-34.036" size="1.778" layer="95" ratio="10"/>
 <attribute name="VALUE" x="-92.71" y="-35.814" size="1.27" layer="96" ratio="10"/>
 </instance>
-<instance part="R7" gate="G$1" x="-284.48" y="50.8"/>
-<instance part="GND9" gate="1" x="-350.52" y="35.56"/>
-<instance part="GND10" gate="1" x="-345.186" y="60.96" rot="R90"/>
+<instance part="R7" gate="G$1" x="-284.48" y="53.34"/>
+<instance part="GND9" gate="1" x="-345.44" y="58.42" rot="R90"/>
+<instance part="GND10" gate="1" x="-345.186" y="63.5" rot="R90"/>
 <instance part="GND5" gate="1" x="-342.9" y="73.66"/>
 <instance part="T1" gate="G$1" x="-284.226" y="99.06">
 <attribute name="DIGIKEY" x="-284.226" y="99.06" size="1.778" layer="96" display="off"/>
@@ -6372,19 +6521,19 @@ WR-COM_USB_Micro Type B_Vertical_THT Micro Type B Vertical THT- Tape &amp; Reel 
 <attribute name="DIGIKEY" x="-182.88" y="53.34" size="1.778" layer="96" display="off"/>
 <attribute name="OC_MOUSER" x="-182.88" y="53.34" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="GND8" gate="1" x="-292.1" y="21.082"/>
+<instance part="GND8" gate="1" x="-290.322" y="40.64" rot="R90"/>
 <instance part="GND11" gate="1" x="-287.782" y="45.72" rot="R90"/>
 <instance part="R6" gate="G$1" x="-271.78" y="38.1"/>
 <instance part="R9" gate="G$1" x="-264.16" y="35.56"/>
 <instance part="GND15" gate="1" x="-142.24" y="-15.24"/>
 <instance part="GND12" gate="1" x="-98.806" y="1.27" rot="R90"/>
-<instance part="USBFS" gate="G$1" x="-360.68" y="50.8" rot="R180">
-<attribute name="DIGIKEY" x="-360.68" y="50.8" size="1.778" layer="96" rot="R180" display="off"/>
-<attribute name="OC_MOUSER" x="-360.68" y="50.8" size="1.778" layer="96" rot="R180" display="off"/>
+<instance part="USBFS" gate="G$1" x="-360.68" y="55.88" rot="R180">
+<attribute name="DIGIKEY" x="-360.68" y="55.88" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="OC_MOUSER" x="-360.68" y="55.88" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
-<instance part="USBHS" gate="G$1" x="-299.72" y="35.56" rot="R180">
-<attribute name="DIGIKEY" x="-299.72" y="35.56" size="1.778" layer="96" rot="R180" display="off"/>
-<attribute name="OC_MOUSER" x="-299.72" y="35.56" size="1.778" layer="96" rot="R180" display="off"/>
+<instance part="USBHS" gate="G$1" x="-302.26" y="38.1" rot="R180">
+<attribute name="DIGIKEY" x="-302.26" y="38.1" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="OC_MOUSER" x="-302.26" y="38.1" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="+3V1" gate="G$1" x="-266.7" y="99.06" rot="R270"/>
 <instance part="+3V2" gate="G$1" x="-185.42" y="-99.06" rot="R180"/>
@@ -6820,11 +6969,6 @@ WR-COM_USB_Micro Type B_Vertical_THT Micro Type B Vertical THT- Tape &amp; Reel 
 <pinref part="C1" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<pinref part="GND8" gate="1" pin="GND"/>
-<pinref part="USBHS" gate="G$1" pin="GND"/>
-<wire x1="-292.1" y1="22.352" x2="-292.1" y2="30.48" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="U$1" gate="G$1" pin="VSS@6"/>
 <pinref part="GND15" gate="1" pin="GND"/>
 <wire x1="-142.24" y1="-7.62" x2="-142.24" y2="-13.97" width="0.1524" layer="91"/>
@@ -6835,15 +6979,9 @@ WR-COM_USB_Micro Type B_Vertical_THT Micro Type B Vertical THT- Tape &amp; Reel 
 <wire x1="-100.076" y1="1.27" x2="-104.14" y2="1.27" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="GND9" gate="1" pin="GND"/>
-<wire x1="-350.52" y1="36.83" x2="-350.52" y2="45.72" width="0.1524" layer="91"/>
-<pinref part="USBFS" gate="G$1" pin="GND"/>
-<wire x1="-350.52" y1="45.72" x2="-353.06" y2="45.72" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="GND10" gate="1" pin="GND"/>
 <pinref part="USBFS" gate="G$1" pin="SHIELD"/>
-<wire x1="-346.456" y1="60.96" x2="-355.6" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="-346.456" y1="63.5" x2="-353.06" y2="63.5" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND11" gate="1" pin="GND"/>
@@ -6947,6 +7085,16 @@ WR-COM_USB_Micro Type B_Vertical_THT Micro Type B Vertical THT- Tape &amp; Reel 
 <segment>
 <pinref part="C13" gate="G$1" pin="2"/>
 <pinref part="GND37" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="GND9" gate="1" pin="GND"/>
+<pinref part="USBFS" gate="G$1" pin="GND"/>
+<wire x1="-346.71" y1="58.42" x2="-353.06" y2="58.42" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="USBHS" gate="G$1" pin="GND"/>
+<pinref part="GND8" gate="1" pin="GND"/>
+<wire x1="-294.64" y1="40.64" x2="-291.592" y2="40.64" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="ROW_4" class="0">
@@ -7161,39 +7309,36 @@ WR-COM_USB_Micro Type B_Vertical_THT Micro Type B Vertical THT- Tape &amp; Reel 
 <net name="D0F_P" class="1">
 <segment>
 <pinref part="R7" gate="G$1" pin="2"/>
-<wire x1="-254" y1="50.8" x2="-281.94" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="-241.3" y1="53.34" x2="-281.94" y2="53.34" width="0.1524" layer="91"/>
 <pinref part="U$1" gate="G$1" pin="USB0_DP"/>
-<wire x1="-241.3" y1="53.34" x2="-254" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="-254" y1="53.34" x2="-254" y2="50.8" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="D0_P" class="1">
 <segment>
 <pinref part="R7" gate="G$1" pin="1"/>
-<wire x1="-287.02" y1="50.8" x2="-353.06" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="-287.02" y1="53.34" x2="-353.06" y2="53.34" width="0.1524" layer="91"/>
 <pinref part="USBFS" gate="G$1" pin="D+"/>
 </segment>
 </net>
 <net name="D0_N" class="1">
 <segment>
-<wire x1="-353.06" y1="53.34" x2="-293.37" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="-293.37" y1="53.34" x2="-293.37" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="-353.06" y1="50.8" x2="-279.4" y2="50.8" width="0.1524" layer="91"/>
 <pinref part="R5" gate="G$1" pin="1"/>
-<wire x1="-293.37" y1="55.88" x2="-287.02" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="USBFS" gate="G$1" pin="D-"/>
 </segment>
 </net>
 <net name="N$29" class="2">
 <segment>
-<wire x1="-353.06" y1="55.88" x2="-336.55" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="-336.55" y1="55.88" x2="-336.55" y2="81.28" width="0.1524" layer="91"/>
 <pinref part="C3" gate="G$1" pin="1"/>
+<wire x1="-336.55" y1="48.26" x2="-336.55" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="-336.55" y1="81.28" x2="-342.9" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="-342.9" y1="81.28" x2="-342.9" y2="80.01" width="0.1524" layer="91"/>
 <pinref part="R12" gate="G$1" pin="1"/>
 <wire x1="-336.55" y1="81.28" x2="-336.55" y2="86.36" width="0.1524" layer="91"/>
 <junction x="-336.55" y="81.28"/>
+<wire x1="-336.55" y1="48.26" x2="-336.296" y2="48.26" width="0.1524" layer="91"/>
 <pinref part="USBFS" gate="G$1" pin="VBUS"/>
+<wire x1="-336.55" y1="48.26" x2="-353.06" y2="48.26" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$30" class="0">
@@ -7273,10 +7418,8 @@ WR-COM_USB_Micro Type B_Vertical_THT Micro Type B Vertical THT- Tape &amp; Reel 
 <net name="D0F_N" class="1">
 <segment>
 <pinref part="U$1" gate="G$1" pin="USB0_DM"/>
-<wire x1="-241.3" y1="50.8" x2="-246.38" y2="50.8" width="0.1524" layer="91"/>
-<wire x1="-246.38" y1="50.8" x2="-246.38" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="R5" gate="G$1" pin="2"/>
-<wire x1="-246.38" y1="55.88" x2="-281.94" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="-241.3" y1="50.8" x2="-274.32" y2="50.8" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="D1F_P" class="1">
@@ -7288,7 +7431,7 @@ WR-COM_USB_Micro Type B_Vertical_THT Micro Type B Vertical THT- Tape &amp; Reel 
 </net>
 <net name="D1_P" class="1">
 <segment>
-<wire x1="-292.1" y1="35.56" x2="-279.4" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="-294.64" y1="35.56" x2="-279.4" y2="35.56" width="0.1524" layer="91"/>
 <wire x1="-279.4" y1="35.56" x2="-279.4" y2="38.1" width="0.1524" layer="91"/>
 <pinref part="R6" gate="G$1" pin="1"/>
 <wire x1="-279.4" y1="38.1" x2="-274.32" y2="38.1" width="0.1524" layer="91"/>
@@ -7306,11 +7449,9 @@ WR-COM_USB_Micro Type B_Vertical_THT Micro Type B Vertical THT- Tape &amp; Reel 
 <segment>
 <pinref part="R9" gate="G$1" pin="1"/>
 <wire x1="-266.7" y1="35.56" x2="-276.86" y2="35.56" width="0.1524" layer="91"/>
-<wire x1="-276.86" y1="35.56" x2="-276.86" y2="40.64" width="0.1524" layer="91"/>
-<wire x1="-276.86" y1="40.64" x2="-281.94" y2="40.64" width="0.1524" layer="91"/>
-<wire x1="-281.94" y1="40.64" x2="-281.94" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="-276.86" y1="35.56" x2="-276.86" y2="33.02" width="0.1524" layer="91"/>
 <pinref part="USBHS" gate="G$1" pin="D-"/>
-<wire x1="-281.94" y1="38.1" x2="-292.1" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="-276.86" y1="33.02" x2="-294.64" y2="33.02" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+3V3" class="2">
