@@ -1632,13 +1632,30 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="88.21" y1="58.198" x2="87.972" y2="57.96" width="0.2" layer="16"/>
 <wire x1="87.4" y1="65" x2="87.4" y2="63.911" width="0.4" layer="16"/>
 <wire x1="87.4" y1="63.911" x2="87.497" y2="63.814" width="0.4" layer="16"/>
-<wire x1="96.75" y1="66.3" x2="97" y2="67.8" width="0" layer="19" extent="16-16"/>
-<wire x1="85.21" y1="59.54" x2="84.71" y2="59.54" width="0" layer="19" extent="16-16"/>
-<wire x1="26.5" y1="63.7" x2="26.25" y2="62.2" width="0" layer="19" extent="16-16"/>
-<wire x1="94.85" y1="65" x2="96.75" y2="66.3" width="0" layer="19" extent="16-16"/>
-<wire x1="24.35" y1="60.9" x2="26.25" y2="62.2" width="0" layer="19" extent="16-16"/>
-<wire x1="97" y1="62.2" x2="94.85" y2="65" width="0" layer="19" extent="1-1"/>
-<wire x1="26.5" y1="58.1" x2="24.35" y2="60.9" width="0" layer="19" extent="1-1"/>
+<via x="97.472" y="69.96" extent="1-16" drill="0.254"/>
+<via x="96.472" y="59.96" extent="1-16" drill="0.254"/>
+<via x="94.272" y="65.96" extent="1-16" drill="0.254"/>
+<wire x1="94.85" y1="65" x2="94.85" y2="65.382" width="0.4" layer="16"/>
+<wire x1="94.85" y1="65.382" x2="94.272" y2="65.96" width="0.4" layer="16"/>
+<wire x1="97" y1="67.8" x2="97.472" y2="68.272" width="0.4" layer="16"/>
+<wire x1="97.472" y1="68.272" x2="97.472" y2="69.96" width="0.4" layer="16"/>
+<wire x1="97" y1="62.2" x2="96.472" y2="61.672" width="0.4" layer="16"/>
+<wire x1="96.472" y1="61.672" x2="96.472" y2="59.96" width="0.4" layer="16"/>
+<via x="85.472" y="57.96" extent="1-16" drill="0.254"/>
+<wire x1="85.21" y1="59.54" x2="85.21" y2="58.222" width="0.2" layer="16"/>
+<wire x1="85.21" y1="58.222" x2="85.472" y2="57.96" width="0.4" layer="16"/>
+<via x="27.472" y="62.96" extent="1-16" drill="0.254"/>
+<via x="27.472" y="56.96" extent="1-16" drill="0.254"/>
+<via x="23.972" y="62.06" extent="1-16" drill="0.254"/>
+<via x="27.472" y="61.96" extent="1-16" drill="0.254"/>
+<wire x1="26.5" y1="63.7" x2="26.732" y2="63.7" width="0.4" layer="16"/>
+<wire x1="26.732" y1="63.7" x2="27.472" y2="62.96" width="0.4" layer="16"/>
+<wire x1="26.25" y1="62.2" x2="27.232" y2="62.2" width="0.4" layer="16"/>
+<wire x1="27.232" y1="62.2" x2="27.472" y2="61.96" width="0.4" layer="16"/>
+<wire x1="26.5" y1="58.1" x2="26.5" y2="57.932" width="0.4" layer="16"/>
+<wire x1="26.5" y1="57.932" x2="27.472" y2="56.96" width="0.4" layer="16"/>
+<wire x1="24.35" y1="60.9" x2="23.972" y2="61.278" width="0.4" layer="16"/>
+<wire x1="23.972" y1="61.278" x2="23.972" y2="62.06" width="0.4" layer="16"/>
 </signal>
 <signal name="N$12">
 </signal>
@@ -2626,9 +2643,6 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <signal name="VREG_IN1">
 <contactref element="U$1" pad="23"/>
 </signal>
-<signal name="USB1_VBUS">
-<contactref element="U$1" pad="27"/>
-</signal>
 <signal name="TX">
 <contactref element="U$1" pad="66"/>
 <contactref element="UART0" pad="3"/>
@@ -2653,57 +2667,63 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="54.27" y1="37.27" x2="51.81" y2="37.27" width="0.2" layer="1"/>
 <wire x1="91.46" y1="42.54" x2="89" y2="45" width="0.2" layer="16"/>
 </signal>
-<signal name="VBUS">
+<signal name="N$8">
 <contactref element="USBHS" pad="1"/>
+<contactref element="U$1" pad="27"/>
+<wire x1="96.75" y1="63.35" x2="96.75" y2="63.7" width="0.4" layer="16"/>
+<wire x1="91.1" y1="62.1" x2="95.5" y2="62.1" width="0.4" layer="16"/>
+<wire x1="89.71" y1="59.54" x2="89.71" y2="60.71" width="0.4" layer="16"/>
+<wire x1="89.71" y1="60.71" x2="91.1" y2="62.1" width="0.4" layer="16"/>
+<wire x1="95.5" y1="62.1" x2="96.75" y2="63.35" width="0.4" layer="16"/>
 </signal>
 </signals>
 <errors>
+<approved hash="3,16,62e7a2035ecf1e1e"/>
+<approved hash="3,16,68f42956f36948b8"/>
+<approved hash="3,16,6762db1edb9e67e2"/>
+<approved hash="3,16,78a4e0463dc86418"/>
+<approved hash="3,16,32f7ee0bee6b3297"/>
 <approved hash="3,16,142f0c0ff0fb0c57"/>
+<approved hash="3,16,d83dc5c1c580d87c"/>
 <approved hash="3,16,3138c3249bca5946"/>
 <approved hash="3,16,c8724d9331f133ce"/>
 <approved hash="3,16,87181a64198784fb"/>
 <approved hash="3,16,c74a1b1e18dec48a"/>
-<approved hash="3,16,011e02bd7881395e"/>
-<approved hash="3,16,0e2b8d8a91bd5f2d"/>
-<approved hash="3,16,2a77566b562a2a36"/>
-<approved hash="3,16,c9a5d459d4b8c944"/>
-<approved hash="3,16,85a8595459b58549"/>
 <approved hash="3,16,71a3012a21c169ca"/>
-<approved hash="3,16,c821b4ddb4ddc821"/>
 <approved hash="3,16,be3002cc02cfbe33"/>
 <approved hash="3,16,79f4791265f27100"/>
+<approved hash="3,16,c821b4ddb4ddc821"/>
 <approved hash="3,16,6d0210fe10f86d04"/>
-<approved hash="3,16,32f7ee0bee6b3297"/>
-<approved hash="3,16,78a4e0463dc86418"/>
-<approved hash="3,16,6762db1edb9e67e2"/>
-<approved hash="3,16,68f42956f36948b8"/>
-<approved hash="3,16,62e7a2035ecf1e1e"/>
-<approved hash="3,16,d83dc5c1c580d87c"/>
-<approved hash="3,16,a2809e7c9e3fa2c3"/>
 <approved hash="3,16,22c4de38de9b2267"/>
+<approved hash="3,16,a2809e7c9e3fa2c3"/>
 <approved hash="3,16,360fabf3abf2360e"/>
-<approved hash="5,16,8e57203e74f41e86"/>
+<approved hash="3,16,85a8595459b58549"/>
+<approved hash="3,16,c9a5d459d4b8c944"/>
+<approved hash="3,16,2a77566b562a2a36"/>
+<approved hash="3,16,0e2b8d8a91bd5f2d"/>
+<approved hash="3,16,011e02bd7881395e"/>
+<approved hash="5,16,34e61e7b8fad8c1a"/>
+<approved hash="5,16,ab86d85567f4706d"/>
+<approved hash="5,16,f5c19bb950f1a5df"/>
+<approved hash="5,16,92dc8cd9a2f1f0f1"/>
 <approved hash="5,16,a0df32f58feabf25"/>
-<approved hash="5,16,874ab120c9eb629b"/>
-<approved hash="5,16,c3d873f232e8f921"/>
+<approved hash="5,16,8e57203e74f41e86"/>
 <approved hash="5,16,470d5afebcc05ea8"/>
+<approved hash="5,16,729ba902d1e7fd48"/>
+<approved hash="5,16,eecdc4e795eb0f37"/>
+<approved hash="5,16,3c476a2d72f2e691"/>
 <approved hash="5,16,62e0353cef490fbd"/>
 <approved hash="5,16,59cf15e280ec2d32"/>
 <approved hash="5,16,ad44bb2e0ff42a95"/>
-<approved hash="5,16,729ba902d1e7fd48"/>
 <approved hash="5,16,2fb96b571a3ea8c4"/>
-<approved hash="5,16,92dc8cd9a2f1f0f1"/>
-<approved hash="5,16,425f64732f45c118"/>
-<approved hash="5,16,245f02723844d618"/>
-<approved hash="5,16,f5c19bb950f1a5df"/>
-<approved hash="5,16,205f06779e417018"/>
-<approved hash="5,16,3c476a2d72f2e691"/>
-<approved hash="5,16,eecdc4e795eb0f37"/>
-<approved hash="5,16,ab86d85567f4706d"/>
-<approved hash="5,16,34e61e7b8fad8c1a"/>
+<approved hash="5,16,205f0662e6540818"/>
 <approved hash="5,16,245f02785c4eb218"/>
 <approved hash="5,16,425f646465528b18"/>
-<approved hash="5,16,205f0662e6540818"/>
+<approved hash="5,16,874ab120c9eb629b"/>
+<approved hash="5,16,245f02723844d618"/>
+<approved hash="5,16,425f64732f45c118"/>
+<approved hash="5,16,205f06779e417018"/>
+<approved hash="5,16,c3d873f232e8f921"/>
 </errors>
 </board>
 </drawing>

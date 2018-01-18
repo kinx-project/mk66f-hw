@@ -7410,6 +7410,15 @@ NOTICE - PCB should be laid out on a 0.5mm grid, or 0.0025" if you have to then 
 <wire x1="-152.4" y1="-7.62" x2="-152.4" y2="-27.94" width="0.1524" layer="91"/>
 </segment>
 </net>
+<net name="N$8" class="0">
+<segment>
+<pinref part="USBHS" gate="G$1" pin="VBUS"/>
+<wire x1="-294.64" y1="30.48" x2="-259.08" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="-259.08" y1="30.48" x2="-259.08" y2="33.02" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="USB1_VBUS"/>
+<wire x1="-259.08" y1="33.02" x2="-241.3" y2="33.02" width="0.1524" layer="91"/>
+</segment>
+</net>
 </nets>
 </sheet>
 </sheets>
