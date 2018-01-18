@@ -1408,18 +1408,18 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="DIGIKEY" value="WM9734CT-ND" x="26.5" y="60.9" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MF" value="Molex" x="26.5" y="60.9" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MP" value="105133-0001" x="26.5" y="60.9" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="NAME" x="35.06271875" y="58.0984" size="1.27" layer="26" font="vector" ratio="13" rot="SMR90"/>
+<attribute name="NAME" x="31.06271875" y="61.0984" size="1.27" layer="26" font="vector" ratio="13" rot="SMR90"/>
 <attribute name="OC_MOUSER" value="538-105133-0001" x="26.5" y="60.9" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="PACKAGE" value="None" x="26.5" y="60.9" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="PRICE" value="0.48 USD" x="26.5" y="60.9" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="VALUE" x="23.1" y="57.4984" size="1.27" layer="28" font="vector" ratio="13" rot="SMR90"/>
 </element>
-<element name="USBHS" library="molex-105133-0001" package="MOLEX_105133-0001" value="105133-0001" x="97" y="65" rot="MR90">
+<element name="USBHS" library="molex-105133-0001" package="MOLEX_105133-0001" value="105133-0001" x="97" y="65" smashed="yes" rot="MR90">
 <attribute name="AVAILABILITY" value="Good" x="97" y="65" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="DESCRIPTION" value=" Conn Micro USB Type B RCP 5 POS 0.65mm Solder RA SMD 5 Terminal 1 Port Embossed T/R " x="97" y="65" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="DIGIKEY" value="WM9734CT-ND" x="97" y="65" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MF" value="Molex" x="97" y="65" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MP" value="105133-0001" x="97" y="65" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="NAME" x="100.396259375" y="70.690109375" size="1.27" layer="26" rot="MR0"/>
 <attribute name="OC_MOUSER" value="538-105133-0001" x="97" y="65" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="PACKAGE" value="None" x="97" y="65" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="PRICE" value="0.48 USD" x="97" y="65" size="1.778" layer="28" rot="MR90" display="off"/>
