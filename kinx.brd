@@ -1405,7 +1405,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <element name="USBFS" library="molex-105133-0001" package="MOLEX_105133-0001" value="105133-0001" x="26.5" y="60.9" smashed="yes" rot="MR90">
 <attribute name="AVAILABILITY" value="Good" x="26.5" y="60.9" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="DESCRIPTION" value=" Conn Micro USB Type B RCP 5 POS 0.65mm Solder RA SMD 5 Terminal 1 Port Embossed T/R " x="26.5" y="60.9" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="DIGIKEY" value="WM9734CT-ND" x="26.5" y="60.9" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="DIGIKEY" value="WM10134CT-ND" x="26.5" y="60.9" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MF" value="Molex" x="26.5" y="60.9" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MP" value="105133-0001" x="26.5" y="60.9" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="NAME" x="31.06271875" y="61.0984" size="1.27" layer="26" font="vector" ratio="13" rot="SMR90"/>
@@ -1416,7 +1416,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <element name="USBHS" library="molex-105133-0001" package="MOLEX_105133-0001" value="105133-0001" x="97" y="65" smashed="yes" rot="MR90">
 <attribute name="AVAILABILITY" value="Good" x="97" y="65" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="DESCRIPTION" value=" Conn Micro USB Type B RCP 5 POS 0.65mm Solder RA SMD 5 Terminal 1 Port Embossed T/R " x="97" y="65" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="DIGIKEY" value="WM9734CT-ND" x="97" y="65" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="DIGIKEY" value="WM10134CT-ND" x="97" y="65" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MF" value="Molex" x="97" y="65" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MP" value="105133-0001" x="97" y="65" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="NAME" x="100.396259375" y="70.690109375" size="1.27" layer="26" rot="MR0"/>

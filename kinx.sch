@@ -6091,11 +6091,11 @@ NOTICE - PCB should be laid out on a 0.5mm grid, or 0.0025" if you have to then 
 <part name="GND15" library="t32_ref" deviceset="GND" device=""/>
 <part name="GND12" library="t32_ref" deviceset="GND" device=""/>
 <part name="USBFS" library="molex-105133-0001" deviceset="105133-0001" device="">
-<attribute name="DIGIKEY" value="WM9734CT-ND"/>
+<attribute name="DIGIKEY" value="WM10134CT-ND"/>
 <attribute name="OC_MOUSER" value="538-105133-0001"/>
 </part>
 <part name="USBHS" library="molex-105133-0001" deviceset="105133-0001" device="">
-<attribute name="DIGIKEY" value="WM9734CT-ND"/>
+<attribute name="DIGIKEY" value="WM10134CT-ND"/>
 <attribute name="OC_MOUSER" value="538-105133-0001"/>
 </part>
 <part name="+3V1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
