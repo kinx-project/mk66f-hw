@@ -54,7 +54,7 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
@@ -953,9 +953,21 @@ NOTICE - PCB should be laid out on a 0.5mm grid, or 0.0025" if you have to then 
 <hole x="-2.8" y="0" drill="0.5"/>
 <hole x="2.8" y="0" drill="0.5"/>
 <hole x="0" y="-2.15" drill="0.5"/>
-<pad name="P$1" x="-2.794" y="0" drill="0.8" shape="offset" rot="R180"/>
-<pad name="P$2" x="2.794" y="0" drill="0.8" shape="offset"/>
-<pad name="P$3" x="0" y="-2.159" drill="0.8" shape="long"/>
+<pad name="P$1" x="-2.8" y="0" drill="0.5" shape="long" rot="R180"/>
+<pad name="P$2" x="2.8" y="0" drill="0.5" shape="long"/>
+<pad name="P$3" x="0" y="-2.15" drill="0.5" shape="long"/>
+<wire x1="-3.15" y1="0.25" x2="-2.45" y2="0.25" width="0.127" layer="46"/>
+<wire x1="-3.15" y1="-0.25" x2="-2.45" y2="-0.25" width="0.127" layer="46"/>
+<wire x1="-3.15" y1="0.25" x2="-3.15" y2="-0.25" width="0.127" layer="46" curve="180"/>
+<wire x1="-2.45" y1="-0.25" x2="-2.45" y2="0.25" width="0.127" layer="46" curve="180"/>
+<wire x1="3.15" y1="0.25" x2="2.45" y2="0.25" width="0.127" layer="46"/>
+<wire x1="3.15" y1="-0.25" x2="2.45" y2="-0.25" width="0.127" layer="46"/>
+<wire x1="3.15" y1="-0.25" x2="3.15" y2="0.25" width="0.127" layer="46" curve="180"/>
+<wire x1="2.45" y1="0.25" x2="2.45" y2="-0.25" width="0.127" layer="46" curve="180"/>
+<wire x1="-0.55" y1="-1.9" x2="0.55" y2="-1.9" width="0.127" layer="46"/>
+<wire x1="-0.55" y1="-2.4" x2="0.55" y2="-2.4" width="0.127" layer="46"/>
+<wire x1="-0.55" y1="-1.9" x2="-0.55" y2="-2.4" width="0.127" layer="46" curve="180"/>
+<wire x1="0.55" y1="-2.4" x2="0.55" y2="-1.9" width="0.127" layer="46" curve="180"/>
 </package>
 </packages>
 </library>
@@ -1620,7 +1632,13 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="88.21" y1="58.198" x2="87.972" y2="57.96" width="0.2" layer="16"/>
 <wire x1="87.4" y1="65" x2="87.4" y2="63.911" width="0.4" layer="16"/>
 <wire x1="87.4" y1="63.911" x2="87.497" y2="63.814" width="0.4" layer="16"/>
-<wire x1="84.71" y1="59.54" x2="85.21" y2="59.54" width="0" layer="19" extent="16-16"/>
+<wire x1="96.75" y1="66.3" x2="97" y2="67.8" width="0" layer="19" extent="16-16"/>
+<wire x1="85.21" y1="59.54" x2="84.71" y2="59.54" width="0" layer="19" extent="16-16"/>
+<wire x1="26.5" y1="63.7" x2="26.25" y2="62.2" width="0" layer="19" extent="16-16"/>
+<wire x1="94.85" y1="65" x2="96.75" y2="66.3" width="0" layer="19" extent="16-16"/>
+<wire x1="24.35" y1="60.9" x2="26.25" y2="62.2" width="0" layer="19" extent="16-16"/>
+<wire x1="97" y1="62.2" x2="94.85" y2="65" width="0" layer="19" extent="1-1"/>
+<wire x1="26.5" y1="58.1" x2="24.35" y2="60.9" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$12">
 </signal>
