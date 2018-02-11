@@ -5679,8 +5679,8 @@ NOTICE - PCB should be laid out on a 0.5mm grid, or 0.0025" if you have to then 
 <wire x1="-1.25" y1="-1" x2="-1.25" y2="1" width="0.127" layer="21"/>
 <text x="0" y="1.5" size="1.016" layer="25" font="vector" ratio="12" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-3" size="1.016" layer="27" font="vector" ratio="12" align="bottom-center">&gt;VALUE</text>
-<wire x1="-0.41" y1="-1.57" x2="-1.71" y2="-1.57" width="0.127" layer="21"/>
-<wire x1="-1.71" y1="-1.57" x2="-1.71" y2="-0.27" width="0.127" layer="21"/>
+<wire x1="-0.41" y1="-1.951" x2="-2.218" y2="-1.951" width="0.127" layer="21"/>
+<wire x1="-2.218" y1="-1.951" x2="-2.218" y2="-0.27" width="0.127" layer="21"/>
 </package>
 </packages>
 <symbols>

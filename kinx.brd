@@ -877,8 +877,8 @@ NOTICE - PCB should be laid out on a 0.5mm grid, or 0.0025" if you have to then 
 <wire x1="-1.25" y1="-1" x2="-1.25" y2="1" width="0.127" layer="21"/>
 <text x="0" y="1.5" size="1.016" layer="25" font="vector" ratio="12" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-3" size="1.016" layer="27" font="vector" ratio="12" align="bottom-center">&gt;VALUE</text>
-<wire x1="-0.41" y1="-1.57" x2="-1.71" y2="-1.57" width="0.127" layer="21"/>
-<wire x1="-1.71" y1="-1.57" x2="-1.71" y2="-0.27" width="0.127" layer="21"/>
+<wire x1="-0.41" y1="-1.951" x2="-2.218" y2="-1.951" width="0.127" layer="21"/>
+<wire x1="-2.218" y1="-1.951" x2="-2.218" y2="-0.27" width="0.127" layer="21"/>
 </package>
 </packages>
 </library>
@@ -1245,7 +1245,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MANUFACTURER" value="Diodes Incorporated" x="97" y="37" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MPN" value="FH1600015" x="212" y="10" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="OC_MOUSER" value="729-FH1600015" x="97" y="37" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="VALUE" x="96.989" y="35.167" size="1.016" layer="26" font="vector" ratio="12" rot="MR180" align="bottom-center"/>
+<attribute name="VALUE" x="96.989" y="34.467" size="1.016" layer="26" font="vector" ratio="12" rot="MR180" align="bottom-center"/>
 </element>
 <element name="G2" library="t32_ref" package="TC26H" value="32.768kHz" x="100" y="56" smashed="yes" rot="MR0">
 <attribute name="DESC" value="32.768kHz / 12.5pF / 20ppm" x="167" y="45" size="1.778" layer="28" rot="MR0" display="off"/>
