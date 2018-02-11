@@ -5614,8 +5614,8 @@ Source: www.kingbright.com</description>
 <wire x1="1.6" y1="-0.8" x2="1.6" y2="0.8" width="0.05" layer="51"/>
 <wire x1="1.6" y1="0.8" x2="-1.6" y2="0.8" width="0.05" layer="51"/>
 <rectangle x1="-1.5875" y1="-0.889" x2="1.5875" y2="0.889" layer="39"/>
-<smd name="+" x="-0.889" y="0" dx="0.889" dy="1.27" layer="1" roundness="25"/>
-<smd name="-" x="0.889" y="0" dx="0.889" dy="1.27" layer="1" roundness="25"/>
+<smd name="+" x="-1.016" y="0" dx="1.27" dy="1.27" layer="1" roundness="25"/>
+<smd name="-" x="1.016" y="0" dx="1.27" dy="1.27" layer="1" roundness="25"/>
 <text x="-1.905" y="1.143" size="0.889" layer="25" font="vector" ratio="11">&gt;NAME</text>
 <text x="-1.697" y="-1.6875" size="0.635" layer="27" ratio="10">&gt;VALUE</text>
 <text x="0" y="0" size="0.7" layer="51" align="center">&gt;NAME</text>
