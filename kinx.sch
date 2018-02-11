@@ -3643,7 +3643,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="led" urn="urn:adsk.eagle:library:259">
+<library name="led">
 <description>&lt;b&gt;LEDs&lt;/b&gt;&lt;p&gt;
 &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;&lt;br&gt;
 Extended by Federico Battaglin &lt;author&gt;&amp;lt;federico.rd@fdpinternational.com&amp;gt;&lt;/author&gt; with DUOLED</description>
@@ -4641,7 +4641,7 @@ Source: http://www.ledtronics.com/ds/smd-0603/Dstr0093.pdf</description>
 <text x="-1.5" y="1" size="1.27" layer="25">&gt;NAME</text>
 <text x="-1.5" y="-2" size="1.27" layer="27">&gt;VALUE</text>
 </package>
-<package name="SML1206" urn="urn:adsk.eagle:footprint:15684/1" library_version="1">
+<package name="SML1206" urn="urn:adsk.eagle:footprint:15684/1" locally_modified="yes">
 <description>&lt;b&gt;SML10XXKH-TR (HIGH INTENSITY) LED&lt;/b&gt;&lt;p&gt;
 &lt;table&gt;
 &lt;tr&gt;&lt;td&gt;SML10R3KH-TR&lt;/td&gt;&lt;td&gt;ULTRA RED&lt;/td&gt;&lt;/tr&gt;
@@ -4660,7 +4660,6 @@ Source: http://www.ledtronics.com/ds/smd-1206/dstr0094.PDF</description>
 <wire x1="1.5" y1="-0.5" x2="1.5" y2="0.5" width="0.2032" layer="51" curve="-180"/>
 <wire x1="-1.55" y1="0.75" x2="1.55" y2="0.75" width="0.1016" layer="51"/>
 <wire x1="1.55" y1="-0.75" x2="-1.55" y2="-0.75" width="0.1016" layer="51"/>
-<circle x="-0.725" y="0.525" radius="0.125" width="0" layer="21"/>
 <smd name="C" x="-1.75" y="0" dx="1.5" dy="1.5" layer="1"/>
 <smd name="A" x="1.75" y="0" dx="1.5" dy="1.5" layer="1"/>
 <text x="-1.5" y="1" size="1.27" layer="25">&gt;NAME</text>
@@ -4671,7 +4670,13 @@ Source: http://www.ledtronics.com/ds/smd-1206/dstr0094.PDF</description>
 <rectangle x1="1.15" y1="-0.8" x2="1.6" y2="-0.4" layer="51" rot="R180"/>
 <rectangle x1="1.15" y1="0.4" x2="1.6" y2="0.8" layer="51" rot="R180"/>
 <rectangle x1="1" y1="0.275" x2="1.175" y2="0.6" layer="51" rot="R180"/>
-<rectangle x1="-0.1" y1="-0.1" x2="0.1" y2="0.1" layer="21"/>
+<wire x1="-0.635" y1="0.508" x2="-0.635" y2="-0.508" width="0.2032" layer="21"/>
+<text x="-3.937" y="-0.635" size="1.27" layer="21">C</text>
+<text x="2.921" y="-0.635" size="1.27" layer="21">A</text>
+<wire x1="-2.667" y1="0.889" x2="2.667" y2="0.889" width="0.127" layer="21"/>
+<wire x1="2.667" y1="0.889" x2="2.667" y2="-0.889" width="0.127" layer="21"/>
+<wire x1="2.667" y1="-0.889" x2="-2.667" y2="-0.889" width="0.127" layer="21"/>
+<wire x1="-2.667" y1="-0.889" x2="-2.667" y2="0.889" width="0.127" layer="21"/>
 </package>
 <package name="SML0603" urn="urn:adsk.eagle:footprint:15685/1" library_version="1">
 <description>&lt;b&gt;SML0603-XXX (HIGH INTENSITY) LED&lt;/b&gt;&lt;p&gt;
@@ -4917,7 +4922,7 @@ Source: http://www.ledtronics.com/ds/smd-0603/Dstr0092.pdf</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="LED" urn="urn:adsk.eagle:component:15916/1" prefix="LED" uservalue="yes" library_version="1">
+<deviceset name="LED" urn="urn:adsk.eagle:component:15916/1" locally_modified="yes" prefix="LED" uservalue="yes">
 <description>&lt;b&gt;LED&lt;/b&gt;&lt;p&gt;
 &lt;u&gt;OSRAM&lt;/u&gt;:&lt;br&gt;
 
@@ -6981,16 +6986,16 @@ NOTICE - PCB should be laid out on a 0.5mm grid, or 0.0025" if you have to then 
 <attribute name="DIGIKEY" value="WM14526-ND"/>
 <attribute name="OC_MOUSER" value="538-39-53-2135"/>
 </part>
-<part name="LED1" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="SML1206" package3d_urn="urn:adsk.eagle:package:15829/1">
+<part name="LED1" library="led" deviceset="LED" device="SML1206" package3d_urn="urn:adsk.eagle:package:15829/1">
 <attribute name="OC_MOUSER" value="604-APT3216QBC/D"/>
 </part>
-<part name="LED2" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="SML1206" package3d_urn="urn:adsk.eagle:package:15829/1">
+<part name="LED2" library="led" deviceset="LED" device="SML1206" package3d_urn="urn:adsk.eagle:package:15829/1">
 <attribute name="OC_MOUSER" value="604-APT3216QBC/D"/>
 </part>
-<part name="LED3" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="SML1206" package3d_urn="urn:adsk.eagle:package:15829/1">
+<part name="LED3" library="led" deviceset="LED" device="SML1206" package3d_urn="urn:adsk.eagle:package:15829/1">
 <attribute name="OC_MOUSER" value="604-APT3216QBC/D"/>
 </part>
-<part name="LED4" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="SML1206" package3d_urn="urn:adsk.eagle:package:15829/1">
+<part name="LED4" library="led" deviceset="LED" device="SML1206" package3d_urn="urn:adsk.eagle:package:15829/1">
 <attribute name="OC_MOUSER" value="604-APT3216QBC/D"/>
 </part>
 <part name="R1" library="rcl" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="10K"/>
