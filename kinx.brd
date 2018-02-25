@@ -2354,7 +2354,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="23" y1="60" x2="21" y2="60" width="0.35" layer="16"/>
 <wire x1="21" y1="67.1" x2="29" y2="67.1" width="0.35" layer="16"/>
 </signal>
-<signal name="N$29" class="2">
+<signal name="USBFS_VBUS" class="2">
 <contactref element="C3" pad="1"/>
 <contactref element="R12" pad="1"/>
 <wire x1="25.984" y1="72.873" x2="25.984" y2="70" width="0.4" layer="16"/>
@@ -2380,7 +2380,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="26.25" y1="59.6" x2="26.25" y2="59.5125625" width="0.4" layer="16"/>
 <wire x1="26.25" y1="59.5125625" x2="25.2624375" y2="58.525" width="0.4" layer="16"/>
 </signal>
-<signal name="N$30">
+<signal name="PTA1">
 <contactref element="MKL04Z32VLC4" pad="10"/>
 <contactref element="U$1" pad="51"/>
 <wire x1="96.21" y1="50.54" x2="98.54" y2="50.54" width="0.2" layer="16"/>
@@ -2457,7 +2457,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="LED_PWR" pad="-"/>
 <wire x1="68.762" y1="36.1" x2="70.933" y2="36.107" width="0.4" layer="16"/>
 </signal>
-<signal name="N$11">
+<signal name="PTA2">
 <contactref element="MKL04Z32VLC4" pad="17"/>
 <contactref element="U$1" pad="52"/>
 <wire x1="96.21" y1="50.04" x2="101.04" y2="50.04" width="0.2" layer="16"/>
@@ -2686,7 +2686,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="54.27" y1="37.27" x2="51.81" y2="37.27" width="0.2" layer="1"/>
 <wire x1="91.46" y1="42.54" x2="89" y2="45" width="0.2" layer="16"/>
 </signal>
-<signal name="N$8">
+<signal name="USBHS_VBUS">
 <contactref element="USBHS" pad="1"/>
 <contactref element="U$1" pad="27"/>
 <wire x1="96.75" y1="63.35" x2="96.75" y2="63.7" width="0.4" layer="16"/>

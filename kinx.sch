@@ -8155,7 +8155,7 @@ DIN A4, landscape with extra doc field</description>
 <label x="-33.02" y="83.82" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$29" class="2">
+<net name="USBFS_VBUS" class="2">
 <segment>
 <pinref part="C3" gate="G$1" pin="1"/>
 <wire x1="182.372" y1="53.34" x2="175.26" y2="53.34" width="0.1524" layer="91"/>
@@ -8171,7 +8171,7 @@ DIN A4, landscape with extra doc field</description>
 <label x="205.74" y="116.84" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$30" class="0">
+<net name="PTA1" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="PTA1"/>
 <wire x1="45.72" y1="25.4" x2="45.72" y2="12.7" width="0.1524" layer="91"/>
@@ -8206,7 +8206,7 @@ DIN A4, landscape with extra doc field</description>
 <wire x1="142.24" y1="124.46" x2="147.32" y2="124.46" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$11" class="0">
+<net name="PTA2" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="PTA2"/>
 <wire x1="48.26" y1="12.7" x2="48.26" y2="25.4" width="0.1524" layer="91"/>
@@ -8391,7 +8391,7 @@ DIN A4, landscape with extra doc field</description>
 <wire x1="86.36" y1="25.4" x2="86.36" y2="5.08" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$8" class="0">
+<net name="USBHS_VBUS" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="USB1_VBUS"/>
 <wire x1="-17.78" y1="66.04" x2="-2.54" y2="66.04" width="0.1524" layer="91"/>
@@ -8466,7 +8466,7 @@ DIN A4, landscape with extra doc field</description>
 <label x="106.68" y="203.2" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$30" class="0">
+<net name="PTA1" class="0">
 <segment>
 <pinref part="MKL04Z32VLC4" gate="G$1" pin="PTA6"/>
 <wire x1="67.31" y1="193.04" x2="77.47" y2="193.04" width="0.1524" layer="91"/>
@@ -8504,7 +8504,7 @@ DIN A4, landscape with extra doc field</description>
 <label x="106.68" y="205.74" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$11" class="0">
+<net name="PTA2" class="0">
 <segment>
 <pinref part="MKL04Z32VLC4" gate="G$1" pin="PTB1"/>
 <wire x1="102.87" y1="200.66" x2="119.38" y2="200.66" width="0.1524" layer="91"/>
