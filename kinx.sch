@@ -8365,6 +8365,7 @@ DIN A4, landscape with extra doc field</description>
 <pinref part="+3V1" gate="G$1" pin="+3V3"/>
 <wire x1="217.424" y1="53.34" x2="213.614" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="220.98" y1="53.34" x2="217.424" y2="53.34" width="0.1524" layer="91"/>
+<junction x="217.424" y="53.34"/>
 </segment>
 </net>
 <net name="N$7" class="2">
@@ -8375,6 +8376,7 @@ DIN A4, landscape with extra doc field</description>
 <wire x1="194.31" y1="50.8" x2="194.31" y2="53.34" width="0.1524" layer="91"/>
 <pinref part="T1" gate="G$1" pin="IN"/>
 <wire x1="198.374" y1="53.34" x2="194.31" y2="53.34" width="0.1524" layer="91"/>
+<junction x="194.31" y="53.34"/>
 </segment>
 </net>
 <net name="TX" class="0">
@@ -8535,6 +8537,59 @@ DIN A4, landscape with extra doc field</description>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="101,1,-83.82,-167.64,RGHT_13_DOWN-5,S,,,,"/>
+<approved hash="101,1,-83.82,-165.1,RGHT_13_DOWN-11,S,,,,"/>
+<approved hash="101,1,-83.82,-149.86,TOP_RIGHT-2,S,,,,"/>
+<approved hash="101,1,-83.82,-147.32,TOP_RIGHT-1,S,,,,"/>
+<approved hash="101,1,-83.82,-154.94,TOP_LEFT-9,S,,,,"/>
+<approved hash="101,1,-83.82,-157.48,TOP_LEFT-12,S,,,,"/>
+<approved hash="101,1,-83.82,-160.02,TOP_LEFT-13,S,,,,"/>
+<approved hash="101,1,-83.82,-172.72,LEFT_13_LT-5,S,,,,"/>
+<approved hash="101,1,-83.82,-175.26,LEFT_13_LT-10,S,,,,"/>
+<approved hash="101,1,-297.18,-297.18,H1,MOUNT,,,,"/>
+<approved hash="104,3,-2.54,121.92,U$1,VDD,+3V3,,,"/>
+<approved hash="104,3,-2.54,119.38,U$1,VSS,GND,,,"/>
+<approved hash="104,3,-2.54,93.98,U$1,VDD,+3V3,,,"/>
+<approved hash="104,3,-2.54,91.44,U$1,VSS,GND,,,"/>
+<approved hash="104,3,-2.54,88.9,U$1,VSS,GND,,,"/>
+<approved hash="104,3,-2.54,81.28,U$1,VREG_OUT,+3V3,,,"/>
+<approved hash="104,3,-2.54,73.66,U$1,USB1_VSS,GND,,,"/>
+<approved hash="104,3,-2.54,66.04,U$1,USB1_VBUS,USBHS_VBUS,,,"/>
+<approved hash="104,3,-2.54,55.88,U$1,VDDA,+3V3,,,"/>
+<approved hash="104,3,-2.54,48.26,U$1,VSSA,GND,,,"/>
+<approved hash="104,3,22.86,25.4,U$1,VBAT,+3V3,,,"/>
+<approved hash="104,3,25.4,25.4,U$1,VDD,+3V3,,,"/>
+<approved hash="104,3,27.94,25.4,U$1,VSS,GND,,,"/>
+<approved hash="104,3,58.42,25.4,U$1,VDD,+3V3,,,"/>
+<approved hash="104,3,60.96,25.4,U$1,VSS,GND,,,"/>
+<approved hash="104,3,93.98,25.4,U$1,VDD,+3V3,,,"/>
+<approved hash="104,3,96.52,25.4,U$1,VSS,GND,,,"/>
+<approved hash="104,3,114.3,91.44,U$1,VSS,GND,,,"/>
+<approved hash="104,3,114.3,93.98,U$1,VDD,+3V3,,,"/>
+<approved hash="104,3,114.3,127,U$1,VSS,GND,,,"/>
+<approved hash="104,3,114.3,129.54,U$1,VDD,+3V3,,,"/>
+<approved hash="104,3,71.12,147.32,U$1,VSS,GND,,,"/>
+<approved hash="104,3,68.58,147.32,U$1,VDD,+3V3,,,"/>
+<approved hash="104,3,38.1,147.32,U$1,VSS,GND,,,"/>
+<approved hash="104,3,35.56,147.32,U$1,VDD,+3V3,,,"/>
+<approved hash="104,3,203.2,116.84,USBFS,VBUS,USBFS_VBUS,,,"/>
+<approved hash="104,3,203.2,83.82,USBHS,VBUS,USBHS_VBUS,,,"/>
+<approved hash="113,1,-225.927,-157.19,THUMB_LEFT_BAK,,,,,"/>
+<approved hash="113,1,-224.98,-203.49,THUMB_RIGHT_SPC,,,,,"/>
+<approved hash="113,2,64.77,235.898,LED1,,,,,"/>
+<approved hash="113,2,64.77,246.058,LED2,,,,,"/>
+<approved hash="113,2,64.77,256.218,LED3,,,,,"/>
+<approved hash="113,2,64.77,266.378,LED4,,,,,"/>
+<approved hash="113,3,140.335,130.525,LED_PWR,,,,,"/>
+<approved hash="113,4,54.6351,181.61,S1,,,,,"/>
+<approved hash="113,4,38.3261,179.429,PROGHEAD,,,,,"/>
+<approved hash="113,3,86.5861,4.79749,UART0,,,,,"/>
+<approved hash="113,1,-172.824,-219.814,FRAME1,,,,,"/>
+<approved hash="113,2,159.916,217.066,FRAME2,,,,,"/>
+<approved hash="113,4,139.596,163.726,FRAME3,,,,,"/>
+<approved hash="113,3,96.416,82.446,FRAME4,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 <compatibility>
