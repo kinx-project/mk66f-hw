@@ -212,7 +212,7 @@
 <circle x="60.935" y="62.173" radius="5" width="0" layer="42"/>
 <circle x="60.935" y="62.173" radius="5" width="0" layer="41"/>
 <text x="86" y="78" size="2.54" layer="26" rot="MR0">kinX keyboard controller</text>
-<text x="44" y="54" size="1.778" layer="26" rot="MR0">v2018-02-11</text>
+<text x="44" y="54" size="1.778" layer="26" rot="MR0">v2018-04-14</text>
 <text x="52" y="51" size="1.778" layer="26" rot="MR0">M. Stapelberg / V. Wunsch</text>
 <wire x1="100" y1="38.5" x2="102.5" y2="38.5" width="0" layer="20"/>
 <wire x1="100" y1="40.5" x2="102.5" y2="40.5" width="0" layer="20"/>
