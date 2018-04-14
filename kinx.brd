@@ -1280,7 +1280,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="DESC" value="0.1uF / 16VDC /  X7R " x="187" y="-51" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MF" value="Murata Electronics" x="187" y="-51" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MPN" value="GRM188R71C104KA01D" x="187" y="-51" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="OC_MOUSER" value="81-GRM39X104K16" x="187" y="-51" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="OC_MOUSER" value="80-C0603C104M4R7411" x="187" y="-51" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="PACKAGE" value="0603" x="187" y="-51" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="TYPE" value="Capacitor" x="187" y="-51" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="VALUE" x="76.575" y="63.91" size="0.635" layer="26" font="vector" ratio="10" rot="MR180"/>
@@ -1289,7 +1289,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="DESC" value="0.1uF / 16VDC /  X7R " x="192" y="-51" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MF" value="Murata Electronics" x="192" y="-51" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MPN" value="GRM188R71C104KA01D" x="192" y="-51" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="OC_MOUSER" value="81-GRM39X104K16" x="192" y="-51" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="OC_MOUSER" value="80-C0603C104M4R7411" x="192" y="-51" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="PACKAGE" value="0603" x="192" y="-51" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="TYPE" value="Capacitor" x="192" y="-51" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="VALUE" x="81.441" y="63.965" size="0.635" layer="26" font="vector" ratio="10" rot="MR180"/>
@@ -1298,7 +1298,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="DESC" value="0.1uF / 16VDC /  X7R " x="219.012" y="-112.477" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MF" value="Murata Electronics" x="219.012" y="-112.477" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MPN" value="GRM188R71C104KA01D" x="219.012" y="-112.477" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="OC_MOUSER" value="81-GRM39X104K16" x="219.012" y="-112.477" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="OC_MOUSER" value="80-C0603C104M4R7411" x="219.012" y="-112.477" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="PACKAGE" value="0603" x="219.012" y="-112.477" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="TYPE" value="Capacitor" x="219.012" y="-112.477" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="VALUE" x="111.282" y="38.0905" size="0.635" layer="26" font="vector" ratio="10" rot="MR0"/>
@@ -1393,7 +1393,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MF" value="Murata Electronics" x="222" y="-789" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MPN" value="GRM188R71C104KA01D" x="222" y="-789" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="NAME" x="32" y="72" size="0.7" layer="52" rot="MR270" align="center"/>
-<attribute name="OC_MOUSER" value="81-GRM39X104K16" x="222" y="-789" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="OC_MOUSER" value="80-C0603C104M4R7411" x="222" y="-789" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="PACKAGE" value="0603" x="222" y="-789" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="TYPE" value="Capacitor" x="222" y="-789" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="VALUE" x="33.9425" y="73.282" size="0.635" layer="26" font="vector" ratio="10" rot="MR270"/>
@@ -1453,7 +1453,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="DESC" value="0.1uF / 16VDC /  X7R " x="80.793" y="44.287" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MF" value="Murata Electronics" x="80.793" y="44.287" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MPN" value="GRM188R71C104KA01D" x="80.793" y="44.287" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="OC_MOUSER" value="81-GRM39X104K16" x="80.793" y="44.287" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="OC_MOUSER" value="80-C0603C104M4R7411" x="80.793" y="44.287" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="PACKAGE" value="0603" x="80.793" y="44.287" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="TYPE" value="Capacitor" x="80.793" y="44.287" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="VALUE" x="73.6515" y="37.996" size="0.635" layer="26" font="vector" ratio="10" rot="MR270"/>
@@ -1462,7 +1462,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="DESC" value="0.1uF / 16VDC /  X7R " x="77" y="47" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MF" value="Murata Electronics" x="77" y="47" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MPN" value="GRM188R71C104KA01D" x="77" y="47" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="OC_MOUSER" value="81-GRM39X104K16" x="77" y="47" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="OC_MOUSER" value="80-C0603C104M4R7411" x="77" y="47" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="PACKAGE" value="0603" x="77" y="47" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="TYPE" value="Capacitor" x="77" y="47" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="VALUE" x="72.227" y="51.2645" size="0.635" layer="26" font="vector" ratio="10" rot="MR0"/>
@@ -1471,7 +1471,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="DESC" value="0.1uF / 16VDC /  X7R " x="88.956" y="29.627" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MF" value="Murata Electronics" x="88.956" y="29.627" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MPN" value="GRM188R71C104KA01D" x="88.956" y="29.627" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="OC_MOUSER" value="81-GRM39X104K16" x="88.956" y="29.627" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="OC_MOUSER" value="80-C0603C104M4R7411" x="88.956" y="29.627" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="PACKAGE" value="0603" x="88.956" y="29.627" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="TYPE" value="Capacitor" x="88.956" y="29.627" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="VALUE" x="84.226" y="33.7225" size="0.635" layer="26" font="vector" ratio="10" rot="MR0"/>
@@ -1480,7 +1480,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="DESC" value="0.1uF / 16VDC /  X7R " x="93" y="36" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MF" value="Murata Electronics" x="93" y="36" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MPN" value="GRM188R71C104KA01D" x="93" y="36" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="OC_MOUSER" value="81-GRM39X104K16" x="93" y="36" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="OC_MOUSER" value="80-C0603C104M4R7411" x="93" y="36" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="PACKAGE" value="0603" x="93" y="36" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="TYPE" value="Capacitor" x="93" y="36" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="VALUE" x="100.4125" y="40.73" size="0.635" layer="26" font="vector" ratio="10" rot="MR90"/>
@@ -1489,7 +1489,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="DESC" value="0.1uF / 16VDC /  X7R " x="105.075" y="59.643" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MF" value="Murata Electronics" x="105.075" y="59.643" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MPN" value="GRM188R71C104KA01D" x="105.075" y="59.643" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="OC_MOUSER" value="81-GRM39X104K16" x="105.075" y="59.643" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="OC_MOUSER" value="80-C0603C104M4R7411" x="105.075" y="59.643" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="PACKAGE" value="0603" x="105.075" y="59.643" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="TYPE" value="Capacitor" x="105.075" y="59.643" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="VALUE" x="100.9355" y="54.904" size="0.635" layer="26" font="vector" ratio="10" rot="MR270"/>
@@ -1498,7 +1498,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="DESC" value="0.1uF / 16VDC /  X7R " x="105" y="53" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MF" value="Murata Electronics" x="105" y="53" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MPN" value="GRM188R71C104KA01D" x="105" y="53" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="OC_MOUSER" value="81-GRM39X104K16" x="105" y="53" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="OC_MOUSER" value="80-C0603C104M4R7411" x="105" y="53" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="PACKAGE" value="0603" x="105" y="53" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="TYPE" value="Capacitor" x="105" y="53" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="VALUE" x="100.8255" y="48.253" size="0.635" layer="26" font="vector" ratio="10" rot="MR270"/>
@@ -1507,7 +1507,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="DESC" value="0.1uF / 16VDC /  X7R " x="81.497" y="57.052" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MF" value="Murata Electronics" x="81.497" y="57.052" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MPN" value="GRM188R71C104KA01D" x="81.497" y="57.052" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="OC_MOUSER" value="81-GRM39X104K16" x="81.497" y="57.052" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="OC_MOUSER" value="80-C0603C104M4R7411" x="81.497" y="57.052" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="PACKAGE" value="0603" x="81.497" y="57.052" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="TYPE" value="Capacitor" x="81.497" y="57.052" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="VALUE" x="89.4615" y="61.957" size="0.635" layer="26" font="vector" ratio="10" rot="MR90"/>

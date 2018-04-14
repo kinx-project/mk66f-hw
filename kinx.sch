@@ -5959,7 +5959,7 @@ Source: www.kingbright.com</description>
 <attribute name="DESC" value="0.1uF / 16VDC /  X7R " constant="no"/>
 <attribute name="MF" value="Murata Electronics" constant="no"/>
 <attribute name="MPN" value="GRM188R71C104KA01D" constant="no"/>
-<attribute name="OC_MOUSER" value="81-GRM39X104K16" constant="no"/>
+<attribute name="OC_MOUSER" value="80-C0603C104M4R7411" constant="no"/>
 <attribute name="PACKAGE" value="0603" constant="no"/>
 <attribute name="TYPE" value="Capacitor" constant="no"/>
 <attribute name="VALUE" value="0.1uF"/>
