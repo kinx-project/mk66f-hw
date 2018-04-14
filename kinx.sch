@@ -7042,10 +7042,18 @@ DIN A4, landscape with extra doc field</description>
 <part name="LED4" library="led" deviceset="LED" device="SML1206" package3d_urn="urn:adsk.eagle:package:15829/1">
 <attribute name="OC_MOUSER" value="604-APT3216QBC/D"/>
 </part>
-<part name="R1" library="rcl" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="10K"/>
-<part name="R2" library="rcl" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="10K"/>
-<part name="R3" library="rcl" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="10K"/>
-<part name="R4" library="rcl" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="10K"/>
+<part name="R1" library="rcl" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="10K">
+<attribute name="OC_MOUSER" value="603-RC1206FR-0710KL"/>
+</part>
+<part name="R2" library="rcl" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="10K">
+<attribute name="OC_MOUSER" value="603-RC1206FR-0710KL"/>
+</part>
+<part name="R3" library="rcl" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="10K">
+<attribute name="OC_MOUSER" value="603-RC1206FR-0710KL"/>
+</part>
+<part name="R4" library="rcl" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="10K">
+<attribute name="OC_MOUSER" value="603-RC1206FR-0710KL"/>
+</part>
 <part name="H1" library="holes" deviceset="MOUNT-PAD-ROUND" device="4.1"/>
 <part name="MKL04Z32VLC4" library="t32_ref" deviceset="MKL04Z32VLC4" device="" value="MKL04Z32VLC4"/>
 <part name="GND17" library="t32_ref" deviceset="GND" device=""/>
@@ -7537,10 +7545,18 @@ DIN A4, landscape with extra doc field</description>
 <instance part="LED4" gate="G$1" x="63.5" y="266.7" rot="MR270">
 <attribute name="OC_MOUSER" x="63.5" y="266.7" size="1.778" layer="96" rot="MR270" display="off"/>
 </instance>
-<instance part="R1" gate="G$1" x="76.2" y="236.22" rot="MR180"/>
-<instance part="R2" gate="G$1" x="76.2" y="246.38" rot="MR180"/>
-<instance part="R3" gate="G$1" x="76.2" y="256.54" rot="MR180"/>
-<instance part="R4" gate="G$1" x="76.2" y="266.7" rot="MR180"/>
+<instance part="R1" gate="G$1" x="76.2" y="236.22" rot="MR180">
+<attribute name="OC_MOUSER" x="76.2" y="236.22" size="1.778" layer="96" rot="MR180" display="off"/>
+</instance>
+<instance part="R2" gate="G$1" x="76.2" y="246.38" rot="MR180">
+<attribute name="OC_MOUSER" x="76.2" y="246.38" size="1.778" layer="96" rot="MR180" display="off"/>
+</instance>
+<instance part="R3" gate="G$1" x="76.2" y="256.54" rot="MR180">
+<attribute name="OC_MOUSER" x="76.2" y="256.54" size="1.778" layer="96" rot="MR180" display="off"/>
+</instance>
+<instance part="R4" gate="G$1" x="76.2" y="266.7" rot="MR180">
+<attribute name="OC_MOUSER" x="76.2" y="266.7" size="1.778" layer="96" rot="MR180" display="off"/>
+</instance>
 <instance part="+3V17" gate="G$1" x="40.64" y="266.7" rot="R90"/>
 </instances>
 <busses>
