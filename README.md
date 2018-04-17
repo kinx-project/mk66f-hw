@@ -1,7 +1,8 @@
 This repository contains the hardware design files for the kinX mk66f keyboard
 controller, a replacement controller for the Kinesis Advantage keyboard.
 
-TODO: link to oshpark project
+You can order this PCB at [Oshpark](https://oshpark.com/shared_projects/75qdnpC4)
+
 TODO: link to digikey shared BOM
 
 Note that the bootloader chip `IC_MKL04Z32_TQFP32` is not included in the BOM
